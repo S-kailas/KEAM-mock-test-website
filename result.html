@@ -8,23 +8,14 @@
     <title>KEAM MOCK TEST - Result</title>
     <link rel="stylesheet" href="css/styles.css">
 
-<!-- ✅ Google Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3C96W6XWNJ"></script>
 <script>
-    // Prevent duplicate tracking on refresh
-    if (!sessionStorage.getItem('testTracked')) {
-        sessionStorage.setItem('testTracked', 'true');
-    } else {
-        window['ga-disable-G-3C96W6XWNJ'] = true;
-    }
-</script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-XXXXXXXXXX');
+  gtag('config', 'G-3C96W6XWNJ');
 </script>
 
 
