@@ -1,0 +1,789 @@
+{
+  "test_id":"bpharm_mock1.json",
+  "duration_minutes": 90,
+
+  "marks_correct": 4,
+  "marks_wrong": -1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "1. A solution contains $9.8\\ g$ of $H_2SO_4$. How much $NaOH$ is required to completely neutralize it? (molar mass of $NaOH = 40\\ g\\ mol^{-1}$)",
+      "options": [
+        "$0.4\\ g$",
+        "$0.2\\ g$",
+        "$8\\ g$",
+        "$1.2\\ g$",
+        "$1.6\\ g$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "2. Which of the following statements are correct about canal rays? (i) They carry positively charged particles. (ii) The mass of the particles of these rays does not depend upon the gas present in the cathode ray tube. (iii) The particles behave in a different manner in electric field as those of cathode rays. (iv) The charge to mass ratio of the particles does not depends on the gas present in the cathode ray tube.",
+      "options": [
+        "(ii) and (iv)",
+        "(i) and (iv)",
+        "(i) and (ii)",
+        "(ii) and (iii)",
+        "(i) and (iii)"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 3,
+      "question": "3. A sub-atomic particle of mass $2.2 \\times 10^{-2}\\ kg$ is moving with a velocity of $3.0 \\times 10^5\\ ms^{-1}$. What is its de Broglie wavelength? (Planck’s constant $h = 6.6 \\times 10^{-34}\\ Js$)",
+      "options": [
+        "$1\\ pm$",
+        "$0.1\\ pm$",
+        "$2\\ pm$",
+        "$0.2\\ pm$",
+        "$0.5\\ pm$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "4. Which of the following is a metalloid?",
+      "options": [
+        "Antimony",
+        "Aluminium",
+        "Magnesium",
+        "Phosphorus",
+        "Calcium"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "5. Main group elements are",
+      "options": [
+        "s-block elements only",
+        "p-block elements only",
+        "both s- and p-block elements",
+        "d-block elements only",
+        "4f and 5f-block elements"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "question": "6. In which of following compounds there is an expanded octet around the central atom?",
+      "options": [
+        "$SCl_2$",
+        "$NO_2$",
+        "$NH_3$",
+        "$PCl_3$",
+        "$H_2SO_4$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 7,
+      "question": "7. Which of the following molecule has tetrahedral geometry?",
+      "options": [
+        "$SF_6$",
+        "$PCl_5$",
+        "$BF_3$",
+        "$BeCl_2$",
+        "$NH_4^+$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 8,
+      "question": "8. Enthalpy change is always negative for which one of the following processes?",
+      "options": [
+        "Enthalpy of ionisation",
+        "Enthalpy of sublimation",
+        "Enthalpy of vapourisation",
+        "Enthalpy of bond dissolution",
+        "Enthalpy of combustion"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 9,
+      "question": "9. What are the thermodynamic conditions for a reaction to be spontaneous at low temperature and non-spontaneous at high temperature?",
+      "options": [
+        "$\\Delta H > 0, \\Delta S > 0$",
+        "$\\Delta H < 0, \\Delta S > 0$",
+        "$\\Delta H > 0, \\Delta S < 0$",
+        "$\\Delta H < 0, \\Delta S < 0$",
+        "$\\Delta H > 0, \\Delta S = 0$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "question": "10. A monobasic acid $HA$ has pH of $3$ in $0.1M$ solution at $298\\ K$. What is the $pKa$ of the acid at $298\\ K$?",
+      "options": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$",
+        "$2$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "question": "The ion with the highest limiting molar conductance at $298\\ \\mathrm{K}$ is",
+      "options": [
+        "$\\mathrm{H^+}$",
+        "$\\mathrm{Na^+}$",
+        "$\\mathrm{K^+}$",
+        "$\\mathrm{Ca^{2+}}$",
+        "$\\mathrm{Mg^{2+}}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "What is the quantity of current required to deposit one mole of metallic magnesium from fused magnesium chloride? $(1F = 96500\\ \\mathrm{C})$",
+      "options": [
+        "$1.93 \\times 10^4\\ \\mathrm{C}$",
+        "$1.93 \\times 10^3\\ \\mathrm{C}$",
+        "$9.65 \\times 10^3\\ \\mathrm{C}$",
+        "$9.65 \\times 10^4\\ \\mathrm{C}$",
+        "$1.93 \\times 10^5\\ \\mathrm{C}$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 13,
+      "question": "Which of the following gas has highest solubility in water at $298\\ \\mathrm{K}$?",
+      "options": [
+        "Formaldehyde",
+        "Methane",
+        "$\\mathrm{CO_2}$",
+        "Vinyl chloride",
+        "Argon"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "What is the unit of rate constant for a second order reaction?",
+      "options": [
+        "$\\mathrm{mol^2\\ L^{-1}\\ s^{-1}}$",
+        "$\\mathrm{mol^{-1}\\ L^{-1}\\ s^{-1}}$",
+        "$\\mathrm{mol^{-1}\\ L\\ s^{-1}}$",
+        "$\\mathrm{mol\\ L^2\\ s^{-1}}$",
+        "$\\mathrm{mol\\ L^{-1}\\ s^{-1}}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is an incorrect statement?",
+      "options": [
+        "For a zero order reaction the rate of the reaction is independent of reactant concentration.",
+        "In a first order reaction the half-life period does not depend on the initial reactant concentration.",
+        "For a chemical reaction the rate constant increases with increase in temperature.",
+        "In a zero order reaction plot of reactant concentration against time is a straight line with negative slope.",
+        "In a first order reaction, the time required for $75\\%$ completion of the reaction is thrice the half-life period."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a colourless transition metal ion?",
+      "options": [
+        "$\\mathrm{Ca^{2+}}$",
+        "$\\mathrm{Cr^{3+}}$",
+        "$\\mathrm{Ti^{4+}}$",
+        "$\\mathrm{Fe^{2+}}$",
+        "$\\mathrm{Fe^{3+}}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "question": "The $3d$ metal that forms fluoride in $+6$ oxidation state is",
+      "options": [
+        "Titanium",
+        "Chromium",
+        "Vanadium",
+        "Manganese",
+        "Cobalt"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "The transition metal oxide used as a catalyst in the manufacture of sulphuric acid is",
+      "options": [
+        "Nickel (II) oxide",
+        "Vanadium (III) oxide",
+        "Chromium (III) oxide",
+        "Chromium (II) oxide",
+        "Vanadium (V) oxide"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 19,
+      "question": "The transition metal ion with the least ionic radius (in pm) is",
+      "options": [
+        "$\\mathrm{Sc^{3+}}$",
+        "$\\mathrm{Ti^{3+}}$",
+        "$\\mathrm{V^{3+}}$",
+        "$\\mathrm{Cr^{3+}}$",
+        "$\\mathrm{Mn^{3+}}$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 20,
+      "question": "$\\mathrm{KMnO_4}$ is prepared from Mn(II) ion salts by oxidizing it with",
+      "options": [
+        "$\\mathrm{KClO_3}$",
+        "$\\mathrm{K_2S_2O_8}$",
+        "$\\mathrm{KNO_3}$",
+        "$\\mathrm{KClO_4}$",
+        "$\\mathrm{KOH}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "question": "The lanthanoid with the outer electronic configuration $4f^7 5d^1 6s^2$ is",
+      "options": ["Neodymium", "Samarium", "Europium", "Gadolinium", "Holmium"],
+      "correct": 3
+    },
+    {
+      "id": 22,
+      "question": "The IUPAC name of the complex $[Co(NH_3)_3(H_2O)_3]Cl_3$ is",
+      "options": ["triaquatriamminecobalt(III) chloride", "triammineaquacobalt(III) chloride", "triaquatriamminecobalt(II) chloride", "triammineaquacobalt(II) chloride", "triaquatriamminecobalt(III) trichloride"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "The complexes $[Co(NH_3)_5Br]SO_4$ and $[Co(NH_3)_5SO_4]Br$ are examples of",
+      "options": ["Linkage isomerism", "Solvate isomerism", "Coordination isomerism", "Ionization isomerism", "Geometrical isomerism"],
+      "correct": 3
+    },
+    {
+      "id": 24,
+      "question": "The metal ion present in the Wilkinson’s catalyst is",
+      "options": ["Nickel", "Platinum", "Iron", "Rhodium", "Chromium"],
+      "correct": 3
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is a spin free complex?",
+      "options": ["$[Ni(CO)_4]$", "$[Co(NH_3)_6]^{3+}$", "$[Ni(CN)_4]^{2-}$", "$[CoF_6]^{3-}$", "$[Mn(CN)_6]^{3-}$"],
+      "correct": 3
+    },
+    {
+      "id": 26,
+      "question": "The type of hybridization of the carbon atoms from left to right in $CH_3 - CH = CH - CN$ is",
+      "options": ["$sp^3, sp, sp, sp^2$", "$sp^3, sp^2, sp, sp$", "$sp^3, sp^2, sp^2, sp$", "$sp^3, sp^2, sp^2, sp^2$", "$sp^3, sp^2, sp, sp^2$"],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "question": "Which of the following group shows $-R$ effect?",
+      "options": ["$-OH$", "$-OCOR$", "$-NH_2$", "$-CN$", "$-OR$"],
+      "correct": 3
+    },
+    {
+      "id": 28,
+      "question": "The hydrocarbon with molecular formula $C_{20}H_{42}$ is",
+      "options": ["Didodecane", "Didecane", "Dodidecane", "Didocene", "Eicosane"],
+      "correct": 4
+    },
+    {
+      "id": 29,
+      "question": "When n-hexane is passing over $Mo_2O_3$ catalyst at $773K$ and $10-20$ atm pressure, the product formed is",
+      "options": ["1-hexene", "3-hexene", "cyclohexane", "benzene", "cyclohexene"],
+      "correct": 3
+    },
+    {
+      "id": 30,
+      "question": "One mole of an alkene on ozonolysis gives one mole of propan-2-one and one mole of formaldehyde What is the alkene?",
+      "options": ["2-Butene", "1-Butene", "Isobutene", "2-Methyl-2-butene", "2,3-Dimethyl-2-butene"],
+      "correct": 2
+    },
+    {
+      "id": 31,
+      "question": "31. The correct decreasing order of acidity of alkynes is",
+      "options": [
+        "$CH \\equiv CH > CH_3 - C \\equiv CH > CH_3 - C \\equiv C - CH_3$",
+        "$CH_3 - C \\equiv C - CH_3 > CH \\equiv CH > CH_3 - C \\equiv CH$",
+        "$CH_3 - C \\equiv CH > CH \\equiv CH > CH_3 - C \\equiv C - CH_3$",
+        "$CH \\equiv CH > CH_3 - C \\equiv C - CH_3 > CH_3 - C \\equiv CH$",
+        "$CH_3 - C \\equiv CH > CH_3 - C \\equiv C - CH_3 > CH \\equiv CH$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 32,
+      "question": "32. When toluene is treated with $Cl_2$ in the presence of $Fe$ in dark, the product formed is",
+      "options": [
+        "Benzyl chloride",
+        "mixture of o- & p-Chlorotoluene",
+        "2,4,6-Trichlorotoluene",
+        "2,4-Dichlorotoluene",
+        "Benzal dichloride"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 33,
+      "question": "33. Which of the following compound is used for the manufacture of phenol in large scale?",
+      "options": [
+        "Chlorobenzene",
+        "Benzene",
+        "Aniline",
+        "Cumene",
+        "Cyclohexane"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 34,
+      "question": "34. When aryl halide is treated with $Na$ in dry ether, biphenyl is formed. This reaction is called",
+      "options": [
+        "Fittig reaction",
+        "Wurtz-Fittig reaction",
+        "Swarts reaction",
+        "Williamson’s synthesis",
+        "Kolbe’s reaction"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 35,
+      "question": "35. Asprin is",
+      "options": [
+        "methyl salicylate",
+        "sodium benzoate",
+        "acetyl salicylic acid",
+        "2-methyl salicylic acid",
+        "ethyl salicylate"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 36,
+      "question": "36. Phenol is converted into benzene by heating with",
+      "options": [
+        "$Na / Hg$",
+        "Zn dust",
+        "$Cr_2O_3$",
+        "$LiAlH_4$",
+        "$NaBH_4$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "37. Intramolecular hydrogen bonding is present in",
+      "options": [
+        "Water",
+        "Methanol",
+        "Phenol",
+        "o-Nitrophenol",
+        "p-Nitrophenol"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 38,
+      "question": "38. Which of the following is the weakest acid?",
+      "options": [
+        "$FCH_2COOH$",
+        "$NC - CH_2COOH$",
+        "$Cl_3C - COOH$",
+        "$O_2N - CH_2COOH$",
+        "$Cl_2CHCOOH$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 39,
+      "question": "39. Benzaldehyde reacts with acetophenone in the presence of $NaOH$ at $293\\ K$ to give benazlacetophenone. This reaction is an example of",
+      "options": [
+        "Cannizzaro reaction",
+        "aldol condensation",
+        "Wolf-Kishner reduction",
+        "Clemmensen reduction",
+        "cross aldol condensation"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 40,
+      "question": "40. Which of the following carboxylic acid is used in rubber, textile, dyeing, leather and electroplating industries?",
+      "options": [
+        "Methanoic acid",
+        "Ethanoic acid",
+        "Benzoic acid",
+        "Salicylic acid",
+        "Butanoic acid"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 41,
+      "question": "Acetanilide is prepared by treating acetic anhydride/pyridine with",
+      "options": [
+        "Ethanamine",
+        "Methanamine",
+        "Benzenamine",
+        "N-Methylaniline",
+        "N-Methylethanamine"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 42,
+      "question": "Which of the following amine does not react with Hinsberg’s reagent?",
+      "options": [
+        "Methanamine",
+        "N-Methylethanamine",
+        "N,N-Dimethylethanamine",
+        "1-Propanamine",
+        "2-Propanamine"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 43,
+      "question": "Aryl fluorides are prepared from diazonium salts using",
+      "options": [
+        "$\\mathrm{NaF}$",
+        "$\\mathrm{KF}$",
+        "$\\mathrm{BF_3}$",
+        "$\\mathrm{AlF_3}$",
+        "$\\mathrm{HBF_4}$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 44,
+      "question": "Which of the following amino acid can be synthesized in the body?",
+      "options": [
+        "Proline",
+        "Leucine",
+        "Valine",
+        "Arginine",
+        "Histidine"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 45,
+      "question": "Match the following;\na) Aldohexose\nb) Ketohexose\nc) Non-reducing disaccharide\nd) Reducing disaccharide\ne) Polysaccharide\ni) Maltose\nii) Glycogen\niii) Glucose\niv) Sucrose\nv) Fructose",
+      "options": [
+        "a)-(iii); b)-(v); c)-(iv); d)-(i); e)-(ii)",
+        "a)-(iii); b)-(ii); c)-(i); d)-(v); e)-(iv)",
+        "a)-(i); b)-(ii); c)-(iii); d)-(v); e)-(iv)",
+        "a)-(iii); b)-(iv); c)-(v); d)-(i); e)-(ii)",
+        "a)-(iii); b)-(ii); c)-(iv); d)-(i); e)-(v)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 46,
+      "question": "The dimensional formula for the product of the decay constant $\\lambda$ and the mean life $\\tau$ of a radioactive substance is",
+      "options": [
+        "$LMT^2$",
+        "$L^0MT^{-2}$",
+        "$LMT$",
+        "$L^0M^0T^0$",
+        "$L^2M^2T^2$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 47,
+      "question": "An object when dropped from a height $h$ from the ground, reaches the ground in $t\\ \\mathrm{s}$. The time after which the object was passing through a point at a height $h/2$ from the ground is",
+      "options": [
+        "$\\sqrt{2}t$",
+        "$\\dfrac{t}{\\sqrt{2}}$",
+        "$\\dfrac{t}{2}$",
+        "$2t$",
+        "$\\dfrac{t}{4}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 48,
+      "question": "The angle between two unit vectors $\\hat{A}$ and $\\hat{B}$ is $60^\\circ$. The value of $|\\hat{A}-\\hat{B}|$ is",
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{1}{4}$",
+        "$1$",
+        "$\\dfrac{1}{8}$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 49,
+      "question": "A person standing on the platform of a lift will experience weight loss, when the lift moves",
+      "options": [
+        "downward with uniform velocity",
+        "upward with constant acceleration",
+        "downward with constant acceleration",
+        "upward with uniform velocity",
+        "upward with variable acceleration"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 50,
+      "question": "Three forces $F_1, F_2$ and $F_3$ acting on a body of mass $m$ keep the body stationary. If the forces $F_1$ and $F_2$ are mutually perpendicular, the acceleration of the body when the force $F_3$ is removed is",
+      "options": [
+        "$\\dfrac{F_3}{m}$",
+        "$\\dfrac{F_1F_2}{m}$",
+        "$\\dfrac{(F_1 - F_2)}{m}$",
+        "$\\dfrac{F_1}{m}$",
+        "$\\dfrac{F_2}{m}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 51,
+      "question": "A body initially at rest undergoes linear motion with constant acceleration under the action of a constant force. Then the power delivered to the body at time $t$ is proportional to",
+      "options": ["$t^{1/2}$", "$t$", "$t^3$", "$t^2$", "$t^{3/2}$"],
+      "correct": 1
+    },
+    {
+      "id": 52,
+      "question": "Pick out the INCORRECT statement from the following",
+      "options": ["Work done in uniform circular motion is zero", "When a body is in dynamic equilibrium, work done is zero", "Work done is positive for a freely falling body under gravity", "Work done in a stretched string is positive", "Work done depends on the time taken to complete the work"],
+      "correct": 4
+    },
+    {
+      "id": 53,
+      "question": "A shell travelling along a parabolic path in the gravitational field of the earth undergoes explosion in mid air. The centre of mass of the fragments will move",
+      "options": ["horizontally and then vertically down", "along the original parabolic path", "vertically down", "vertically up and then vertically down", "horizontally and then in the parabolic path"],
+      "correct": 1
+    },
+    {
+      "id": 54,
+      "question": "The ratio of radius of gyration of a circular ring to that of a circular disc, each of same mass and same radius about their respective central axes is",
+      "options": ["$\\sqrt{2} : \\sqrt{3}$", "$1 : \\sqrt{2}$", "$\\sqrt{3} : \\sqrt{2}$", "$\\sqrt{2} : 1$", "$1 : 1$"],
+      "correct": 3
+    },
+    {
+      "id": 55,
+      "question": "Two bodies of masses $m$ and $4m$ are kept at a distance of $x$. The distance on the axial point from $m$ at which the gravitational field is zero is",
+      "options": ["$\\frac{x}{3}$", "$\\frac{x}{4}$", "$\\frac{x}{8}$", "$\\frac{x}{2}$", "$\\frac{x}{5}$"],
+      "correct": 0
+    },
+    {
+      "id": 56,
+      "question": "Work done in a stretched wire is",
+      "options": ["$Load \\times strain$", "$\\frac{1}{2} \\times load \\times strain$", "$Young's\\ modulus \\times strain$", "$\\frac{1}{4} \\times Load \\times extension$", "$\\frac{1}{2} \\times load \\times extension$"],
+      "correct": 4
+    },
+    {
+      "id": 57,
+      "question": "The total pressure $P$ inside an air bubble of radius $r$ at a depth $h$ below the surface of liquid of density $\\rho$ is $(T =$ surface tension of liquid, $P_0 =$ atmospheric pressure$)$",
+      "options": ["$P_0 - h g \\rho - \\frac{2T}{r}$", "$P_0 + h g \\rho + \\frac{2T}{r}$", "$P_0 + h g \\rho + \\frac{4T}{r}$", "$h g \\rho + \\frac{2T}{r}$", "$P_0 + \\frac{2T}{r}$"],
+      "correct": 1
+    },
+    {
+      "id": 58,
+      "question": "If the value of $C_p / C_v$ is unity in the equation $PV^{\\gamma} =$ constant, then the process is $(C_p =$ specific heat capacity at constant pressure $C_v =$ specific heat capacity at constant volume$)$",
+      "options": ["adiabatic", "isochoric", "isothermal", "isobaric", "irreversible"],
+      "correct": 2
+    },
+    {
+      "id": 59,
+      "question": "The temperature at which the r.m.s. velocity of oxygen molecule is equal to that of hydrogen molecule at $20\\ K$ is",
+      "options": ["$300\\ K$", "$320\\ K$", "$330\\ K$", "$400\\ K$", "$375\\ K$"],
+      "correct": 1
+    },
+    {
+      "id": 60,
+      "question": "A particle executes linear simple harmonic motion and its potential energy (P.E), kinetic energy (K.E) and total energy (T.E) are measured as functions of displacement $x$ from the mean position at the origin. Then",
+      "options": ["K.E. is minimum when $x = 0$", "T.E. is zero when $x = 0$", "P.E. is maximum when $x = 0$", "K.E. is maximum when $x$ is maximum", "P.E. is maximum when $x$ is maximum"],
+      "correct": 4
+    },
+    {
+      "id": 61,
+      "question": "61. A closed organ pipe and an open organ pipe have the same length. The ratio of the frequencies in their third mode of vibrations is",
+      "options": [
+        "$3 : 1$",
+        "$2 : 3$",
+        "$5 : 6$",
+        "$4 : 5$",
+        "$3 : 5$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 62,
+      "question": "62. A point charge $-q$ , is placed at a distance $x$ from an isolated conducting plane. The electric field at any point $P$ on the other side of the plane is directed",
+      "options": [
+        "radially away from the point charge",
+        "towards the plane perpendicularly",
+        "radially towards the point charge",
+        "away from the plane perpendicularly",
+        "parallel to the surface of the conducting plane"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 63,
+      "question": "63. Three capacitors each of capacitance $12\\ \\mu F$ , are connected in series. When this combination is connected to a battery of $12\\ V$, the charge drawn from the battery is",
+      "options": [
+        "$32\\ \\mu C$",
+        "$24\\ \\mu C$",
+        "$48\\ \\mu C$",
+        "$16\\ \\mu C$",
+        "$12\\ \\mu C$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 64,
+      "question": "64. Pick out the INCORRECT statement",
+      "options": [
+        "Kirchhoff’s junction rule is based on conservation of energy",
+        "Ohm’s law asserts that the plot of current $I$ versus potential $V$ is linear",
+        "Current is a scalar quantity",
+        "Electrical conductivity is the reciprocal of electrical resistivity",
+        "Current density is a vector quantity"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 65,
+      "question": "65. An electric cell does $10\\ J$ of work in carrying a charge of $5\\ C$ around a simple closed circuit. The electromotive force of the cell is",
+      "options": [
+        "$0.5\\ V$",
+        "$1.5\\ V$",
+        "$1\\ V$",
+        "$6\\ V$",
+        "$2\\ V$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 66,
+      "question": "66. A wire of length $1.2\\ m$ carrying a current of $4\\ A$ , when placed in a uniform magnetic field of $5\\ T$ experiences a force of $12\\ N$ . Then the angle between the direction of current and the magnetic field is",
+      "options": [
+        "$30^{\\circ}$",
+        "$45^{\\circ}$",
+        "$60^{\\circ}$",
+        "$0^{\\circ}$",
+        "$90^{\\circ}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 67,
+      "question": "67. When a proton moves in a uniform magnetic field such that its velocity has a component along the direction of magnetic field, its trajectory will be a",
+      "options": [
+        "circle",
+        "straight line",
+        "helix",
+        "parabola",
+        "ellipse"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 68,
+      "question": "68. An iron ring is held horizontally and a bar magnet is dropped gently through the ring with its length coinciding with the axis of the ring. The acceleration of the freely falling magnet through the ring $(g = acceleration due to gravity)$",
+      "options": [
+        "is less than $g$",
+        "is equal to $g$",
+        "is greater than $g$",
+        "depends on the radius of the ring",
+        "depends on the length of the magnet"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 69,
+      "question": "69. In a plane electromagnetic wave, the magnetic field is given by $B = 400 \\times 10^{-6} \\sin[(4.0 \\times 10^{-4})(t - x / c)]\\ T$. The peak value of electric field (in $Vm^{-1}$) is",
+      "options": [
+        "$8 \\times 10^4$",
+        "$6 \\times 10^4$",
+        "$4 \\times 10^4$",
+        "$3 \\times 10^4$",
+        "$12 \\times 10^4$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 70,
+      "question": "70. A convex lens having power $P$ is cut into two halves perpendicular to the principal axis. Then the power of each piece is",
+      "options": [
+        "$P$",
+        "$\\frac{P}{2}$",
+        "$2P$",
+        "$\\frac{P}{4}$",
+        "$4P$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 71,
+      "question": "In Young’s double slit experiment performed in air medium, the fringe width observed is $1.4\\ \\text{mm}$. If the entire arrangement is kept in a liquid medium of refractive index $1.4$, then the fringe width (in mm) will be",
+      "options": [
+        "$1.4$",
+        "$1.0$",
+        "$0.7$",
+        "$2.8$",
+        "$0.5$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 72,
+      "question": "When blue light is incident on a certain metal surface, photoelectrons are emitted. When green light is incident on the same metallic surface, no electrons are emitted. If the same metallic surface is exposed to yellow light,",
+      "options": [
+        "less energetic electrons will be emitted",
+        "no electrons will be emitted",
+        "more energetic electrons will be emitted",
+        "electron emission depends on the intensity of light",
+        "electron emission depends on the time of exposure"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 73,
+      "question": "Ionization potential of hydrogen atom is $13.6\\ eV$. Hydrogen atom in the ground state initially is excited by monochromatic radiation of photon energy $12.75\\ eV$. The number of spectral lines emitted by the hydrogen atom, according to Bohr’s theory will be",
+      "options": [
+        "$2$",
+        "$4$",
+        "$3$",
+        "$6$",
+        "$5$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 74,
+      "question": "When a radioactive material emits an $\\alpha$-particle, its position in the periodic table",
+      "options": [
+        "is lowered by three places",
+        "is increased by two places",
+        "remains unchanged",
+        "is lowered by two places",
+        "is increased by one place"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 75,
+      "question": "The band gap energy of silicon is",
+      "options": [
+        "$1.1\\ eV$",
+        "$0.7\\ eV$",
+        "$1.7\\ eV$",
+        "$2.1\\ eV$",
+        "$0.5\\ eV$"
+      ],
+      "correct": 0
+    }
+  ]
+}

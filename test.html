@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEAM MOCK TEST</title>
+
+
+    <!-- KaTeX CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body class="test-body">
+
+
+    <div class="test-header">
+        <h1 id="test-title">MOCK TEST</h1>
+        <div class="timer-container" id="timer">
+            Time Left: <span id="time-left">00:00:00</span>
+        </div>
+    </div>
+
+    <div class="test-container">
+        <main class="question-main">
+            <div class="question-header">
+                <h2>Question <span id="current-q-num">1</span></h2>
+                <div class="subject-badge" id="subject-badge">Subject</div>
+            </div>
+
+            <div class="question-content" id="question-text"></div>
+            <div class="options-container" id="options-container"></div>
+
+            <div class="action-buttons">
+                <button type="button" class="btn secondary" onclick="handleSaveAndPrevious()">Save & Previous</button>
+                <button type="button" id="btn-mark-review" class="btn warning" onclick="handleMarkForReview()">Mark for
+                    Review</button>
+                <button type="button" class="btn primary" onclick="handleSaveAndNext()">Save & Next</button>
+            </div>
+
+            <div class="submit-container">
+                <button type="button" class="btn danger full-width" onclick="handleSubmit()">Submit Test</button>
+            </div>
+        </main>
+
+        <aside class="palette-sidebar">
+            <h3>Question Palette</h3>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-box answered"></div> Answered
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box marked-answered"></div> Marked + Answered
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box marked-unanswered"></div> Marked + Not Answered
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box unanswered"></div> Unanswered (Default)
+                </div>
+            </div>
+
+            <div id="palette-grid" class="palette-grid"></div>
+        </aside>
+    </div>
+
+    <!-- Submit Modal -->
+    <div id="submit-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Confirm Submission</h2>
+            <p>Do you want to end the exam?</p>
+            <div class="modal-actions">
+                <button type="button" class="btn danger" onclick="confirmSubmit()">Yes, Submit</button>
+                <button type="button" class="btn secondary" onclick="closeSubmitModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- KaTeX -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
+    <!-- App Scripts -->
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/evaluation.js"></script>
+    <script defer src="js/timer.js"></script>
+    <script defer src="js/navigation.js"></script>
+    <script defer src="js/renderer.js"></script>
+    ```
+
+</body>
+
+</html>

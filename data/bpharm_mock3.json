@@ -1,0 +1,669 @@
+{
+  "test_id":"bpharm_mock3.json",
+  "duration_minutes": 90,
+
+  "marks_correct": 4,
+  "marks_wrong": -1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "A solution is prepared by adding $4\\ \\text{g}$ of a substance to $46\\ \\text{g}$ of ethanol. What is the mass percentage of the solute?",
+      "options": ["$8\\%$", "$10\\%$", "$4\\%$", "$6\\%$", "$12\\%$"],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "The order of energy of orbital in the same subshell is",
+      "options": [
+        "$E_{2s}(Na) > E_{2s}(Li) > E_{2s}(K)$",
+        "$E_{2s}(Li) > E_{2s}(Na) > E_{2s}(K)$",
+        "$E_{2s}(K) > E_{2s}(Na) > E_{2s}(Li)$",
+        "$E_{2s}(Li) > E_{2s}(K) > E_{2s}(Na)$",
+        "$E_{2s}(Na) > E_{2s}(K) > E_{2s}(Li)$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is correct about the stability of half filled and completely filled subshells?\n(i) Relatively small shielding\n(ii) Larger coulombic repulsion energy\n(iii) Smaller exchange energy\n(iv) Smaller coulombic repulsion energy\n(v) Larger exchange energy",
+      "options": [
+        "$(i), (ii) and (iii)$",
+        "$(i), (iii) and (v)$",
+        "$(i), (iv) and (v)$",
+        "$(ii), (iii) and (v)$",
+        "$(i), (ii) and (iv)$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "The correct order of ionization enthalpy is",
+      "options": [
+        "$C < B < O < N$",
+        "$B < O < C < N$",
+        "$N < C < O < B$",
+        "$B < C < O < N$",
+        "$C < B < O < N$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 5,
+      "question": "The increasing order of atomic radii is",
+      "options": [
+        "$C < N < O < F$",
+        "$F < O < C < N$",
+        "$O < F < N < C$",
+        "$F < N < O < C$",
+        "$F < O < N < C$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 6,
+      "question": "Which of the following molecule has expanded octet?",
+      "options": [
+        "$BCl_3$",
+        "$NO_2$",
+        "$NO$",
+        "$SF_6$",
+        "$BeH_2$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 7,
+      "question": "Which of the following molecule has 3 bond pairs and 2 lone pairs of electrons?",
+      "options": [
+        "$NH_3$",
+        "$SO_2$",
+        "$ClF_3$",
+        "$SF_4$",
+        "$H_2O$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is an extensive property?",
+      "options": [
+        "Molar volume",
+        "Internal energy",
+        "Temperature",
+        "Density",
+        "Pressure"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "question": "Which of the following molecule has the highest standard enthalpy change of fusion $(\\Delta_{fus} H^\\Theta)\\ (\\text{in } kJ\\ mol^{-1})$?",
+      "options": [
+        "$H_2O$",
+        "$CO$",
+        "$C_6H_6$",
+        "$CCl_4$",
+        "$NaCl$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 10,
+      "question": "At equilibrium, the concentration of $N_2 = 5\\times10^{-3}\\ M$, $O_2 = 2.8\\times10^{-3}\\ M$ and $NO = 1.4\\times10^{-3}\\ M$ in a sealed vessel at $800\\ K$. What is the value of $K_c$ for the reaction at same temperature?\n$N_2(g) + O_2 \\rightleftharpoons 2NO$",
+      "options": [
+        "$0.41$",
+        "$0.14$",
+        "$0.18$",
+        "$0.5$",
+        "$0.28$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "121. $149\\ \\text{g}$ of $KCl$ is dissolved in $10\\ \\text{litres}$ of an aqueous solution. The molarity of the solution is (molar mass of $KCl = 74.5$)",
+      "options": [
+        "$1\\ \\text{M}$",
+        "$0.1\\ \\text{M}$",
+        "$2\\ \\text{M}$",
+        "$0.2\\ \\text{M}$",
+        "$0.002\\ \\text{M}$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 12,
+      "question": "Which of the following compound is used to cover the surface of the metallic object to prevent corrosion?",
+      "options": [
+        "Phenol",
+        "Benzene",
+        "Acetone",
+        "Bisphenol",
+        "Nitrophenol"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 13,
+      "question": "Which of the following gas has the lowest solubility in water at $298\\ K$?",
+      "options": [
+        "Argon",
+        "Carbon dioxide",
+        "Formaldehyde",
+        "Methane",
+        "Vinyl chloride"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "In a reaction, $3A \\rightarrow \\text{Products}$, the concentration of ‘A’ decreases from $0.6\\ \\mathrm{mol\\ L^{-1}}$ to $0.3\\ \\mathrm{mol\\ L^{-1}}$ in $20$ minutes. What is the rate of the reaction during this interval?",
+      "options": [
+        "$0.05\\ \\mathrm{mol\\ L^{-1}\\ min^{-1}}$",
+        "$0.005\\ \\mathrm{mol\\ L^{-1}\\ min^{-1}}$",
+        "$0.03\\ \\mathrm{mol\\ L^{-1}\\ min^{-1}}$",
+        "$0.6\\ \\mathrm{mol\\ L^{-1}\\ min^{-1}}$",
+        "$0.003\\ \\mathrm{mol\\ L^{-1}\\ min^{-1}}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "The conductivity $(k)$ of a decinormal solution of KCl is $0.012\\ \\text{ohm}^{-1}\\ \\text{cm}^{-1}$. The resistance of a cell containing this solution was found to be $50\\ \\text{ohm}$ at $298\\ \\text{K}$. The cell constant value is",
+      "options": [
+        "$0.02\\ \\text{cm}^{-1}$",
+        "$0.5\\ \\text{cm}^{-1}$",
+        "$0.8\\ \\text{cm}^{-1}$",
+        "$0.1\\ \\text{cm}^{-1}$",
+        "$0.6\\ \\text{cm}^{-1}$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 16,
+      "question": "Which of the following transition element has both $bcc$ and $ccp$ structures at normal temperature?",
+      "options": [
+        "Titanium",
+        "Vanadium",
+        "Silver",
+        "Chromium",
+        "Manganese"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 17,
+      "question": "The most common oxidation states of chromium are",
+      "options": [
+        "$+2$ and $+7$",
+        "$+2$ and $+3$",
+        "$+1$ and $+6$",
+        "$+3$ and $+6$",
+        "$+2$ and $+4$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 18,
+      "question": "What is the magnetic moment of divalent ion with three unpaired electrons?",
+      "options": [
+        "$2.84\\ \\mathrm{BM}$",
+        "$5.92\\ \\mathrm{BM}$",
+        "$3.87\\ \\mathrm{BM}$",
+        "$4.90\\ \\mathrm{BM}$",
+        "$1.73\\ \\mathrm{BM}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "question": "The bond angle of Cr-O-Cr bond in dichromate ion is",
+      "options": [
+        "$90^\\circ$",
+        "$126^\\circ$",
+        "$109^\\circ$",
+        "$60^\\circ$",
+        "$120^\\circ$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "Which of the following transition metal oxide is used in dry battery cells?",
+      "options": [
+        "$\\mathrm{ZnO}$",
+        "$\\mathrm{TiO}$",
+        "$\\mathrm{V_2O_5}$",
+        "$\\mathrm{NiO}$",
+        "$\\mathrm{MnO_2}$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 21,
+      "question": "The first and second ionization enthalpies of lanthanoids are comparable with the element",
+      "options": ["Chromium", "Calcium", "Germanium", "Cesium", "Cadmium"],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "The percentage of Cr(III) in Ruby is",
+      "options": ["$0.5\\ \\text{to}\\ 1\\%$", "$1\\ \\text{to}\\ 2\\%$", "$0.1\\ \\text{to}\\ 0.4\\%$", "$2\\ \\text{to}\\ 3\\%$", "$0.1\\ \\text{to}\\ 0.3\\%$"],
+      "correct": 0
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is an outer orbital complex?",
+      "options": ["$[Co(NH_3)_6]^{3+}$", "$[Mn(CN)_6]^{3-}$", "$[Co(C_2O_4)_3]^{3-}$", "$[MnCl_6]^{3-}$", "$[Fe(CN)_6]^{3-}$"],
+      "correct": 3
+    },
+    {
+      "id": 24,
+      "question": "What is the colour of the complex $[Ni(en)_3]^{2+}$ in water?",
+      "options": ["Pale blue", "Purple", "Violet", "Green", "Orange"],
+      "correct": 2
+    },
+    {
+      "id": 25,
+      "question": "Hardness of water is estimated by titration with",
+      "options": ["DMG", "cupron", "$\\alpha$-nitroso-$\\beta$-naphthol", "$Na_2EDTA$", "ethylenediamine"],
+      "correct": 3
+    },
+    {
+      "id": 26,
+      "question": "The formula of Ammonium phosphomolybdate is",
+      "options": ["$(NH_4)_3PO_4.12MoO_3$", "$(NH_4)_2.12MoO_4$", "$(NH_4)_2PO_4.12MoO_3$", "$(NH_4)_3PO_3.12MoO_3$", "$(NH_4)_3PO_4.2MoO_3$"],
+      "correct": 0
+    },
+    {
+      "id": 27,
+      "question": "On complete combustion of $0.96\\ g$ of an organic compound gives $0.88\\ g$ of carbon dioxide and $0.1\\ g$ of water. What is the percentage composition of carbon in the compound?",
+      "options": ["$22\\%$", "$18\\%$", "$16\\%$", "$20\\%$", "$25\\%$"],
+      "correct": 4
+    },
+    {
+      "id": 28,
+      "question": "Which of the following sodium salt of carboxylic acid is used for the preparation of n-hexane by Kolbe’s electrolytic method?",
+      "options": ["$CH_3CH_2COONa$", "$CH_3COONa$", "$HCOONa$", "$CH_3CH_2CH_3CH_2COONa$", "$CH_3CH_2CH_2COONa$"],
+      "correct": 4
+    },
+    {
+      "id": 29,
+      "question": "Which of the following oxidizing agent is used for the iodination of methane?",
+      "options": ["$HI$", "$KMnO_4$", "$K_2Cr_2O_7$", "$HIO_3$", "$K_2CrO_4$"],
+      "correct": 3
+    },
+    {
+      "id": 30,
+      "question": "The product obtained on ozonolysis of 3-Ethylpen-2-ene are",
+      "options": ["Methanal and 3-Hexanone", "Pentanal and Propanone", "Ethanal and Pentan-3-one", "Ethanal and 3-Hexanone", "Ethanal and Butanone"],
+      "correct": 2
+    },
+    {
+      "id": 31,
+      "question": "The temperature and pressure required for reforming benzene from n-hexane is",
+      "options": [
+        "$473K,\\ 10-20\\ atm$",
+        "$773K,\\ 10-20\\ atm$",
+        "$523K,\\ 100\\ atm$",
+        "$973K,\\ 1-2\\ atm$",
+        "$573K,\\ 10-20\\ atm$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 32,
+      "question": "Methyl fluoride is prepared by heating methyl bromide in the presence of $AgF$. This reaction is known as",
+      "options": [
+        "Swarts reaction",
+        "Finkelstein reaction",
+        "Sandmeyer’s reaction",
+        "Wurtz reaction",
+        "Kolbe’s reaction"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 33,
+      "question": "Benzene diazonium chloride on treatment with reagent ‘X’ gives iodobenzene. The reagent ‘X’ is",
+      "options": [
+        "$Cu_2I_2$",
+        "$AgI$",
+        "$I_2$",
+        "$HI$",
+        "$KI$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is not a chiral molecule?",
+      "options": [
+        "2-Chlorobutane",
+        "2,3-Dihydroxy propanal",
+        "2-Bromo propionic acid",
+        "Butan-2-ol",
+        "2-Bromo-2-methoxypropane"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 35,
+      "question": "The product obtained on the reaction of propanone with $CH_3MgBr$ followed by hydrolysis is",
+      "options": [
+        "2-Methylpropan-2-ol",
+        "Butan-1-ol",
+        "Butan-2-ol",
+        "2-Methylpropan-1-ol",
+        "2-Methylpropane"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 36,
+      "question": "The reagent used for the conversion of carboxylic acids to primary alcohols is",
+      "options": [
+        "$PCC$",
+        "$LiAlH_4\\ /\\ H_2O$",
+        "$NaNO_2\\ /\\ HCl$",
+        "$Pd\\ /\\ H_2$",
+        "$Pt\\ /\\ H_2$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "The order of acidity of the following compounds is\n(i) o-Nitrophenol  (ii) Phenol  (iii) o-Cresol  (iv) Ethanol",
+      "options": [
+        "$(i) < (iii) < (ii) < (iv)$",
+        "$(iii) < (i) < (ii) < (iv)$",
+        "$(i) < (ii) < (iii) < (iv)$",
+        "$(iv) < (iii) < (ii) < (i)$",
+        "$(iii) < (ii) < (i) < (iv)$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 38,
+      "question": "When benzene is treated with carbon monoxide and hydrogen chloride in the presence of anhydrous aluminium chloride, benzaldehyde is formed. The reaction is known as",
+      "options": [
+        "Etard reaction",
+        "Stephen reaction",
+        "Hell-Volhard-Zelinsky reaction",
+        "Gatterman-Koch reaction",
+        "Aldol reaction."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 39,
+      "question": "When $C_6H_5CHO$ reacts with the mixture of $HNO_3$ and $H_2SO_4$ at $273-283K$ gives",
+      "options": [
+        "o- Nitrobenzaldehyde",
+        "m-Nitrobenzaldehyde",
+        "p-Nitrobenzaldehyde",
+        "Toluene",
+        "Nitrobenzene"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 40,
+      "question": "Match the following\n\nCompound\n(a) Benzaldehyde\n(b) Methanoic acid\n(c) Sodium benzoate\n(d) Hexanedioic acid\n\nuse\n(i) food preservative\n(ii) nylon 6,6\n(iii) perfumary\n(iv) Electroplating industry",
+      "options": [
+        "a-(i), b-(ii), c-(iii), d-(iv)",
+        "a-(iii), b-(i), c-(iv), d-(ii)",
+        "a-(i), b-(iii), c-(ii), d-(iv)",
+        "a-(ii), b-(iv), c-(i), d-(iii)",
+        "a-(iii), b-(iv), c-(i), d-(ii)"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 41,
+      "question": "The number of moles of alkyl halides required to convert primary amine into quaternary ammonium salt is",
+      "options": ["1", "2", "3", "4", "5"],
+      "correct": 2
+    },
+    {
+      "id": 42,
+      "question": "The order of boiling point of the following amines is (i) Butan-1-amine (ii) N-Ethylethanamine (iii) N,N-Dimethylethanamine",
+      "options": [
+        "(i) > (iii) > (ii)",
+        "(i) > (ii) > (iii)",
+        "(iii) > (ii) > (i)",
+        "(iii) > (i) > (ii)",
+        "(ii) > (i) > (iii)"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 43,
+      "question": "An aromatic compound (X) of molecular formula, $C_7H_7Cl$, on ammonolysis gives Y (Molecular formula, $C_7H_9N$). The compound ‘Y’ reacts with two moles of $CH_3Cl$ gives N, N-Dimethylphenylmethanamine. The compounds ‘X’ and ‘Y’ are",
+      "options": [
+        "Benzylchloride and Aniline",
+        "Chlorobenzene and Aniline",
+        "Benzylchloride and Benzylamine",
+        "Chlorobenzene and Benzylamine",
+        "Benzoylchloride and Benzylamine"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 44,
+      "question": "Oxidation of gluconic acid with nitric acid gives",
+      "options": [
+        "n-hexane",
+        "fructose",
+        "glucose",
+        "glyceraldehyde",
+        "saccharic acid"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 45,
+      "question": "The carbohydrates are stored in animal body as",
+      "options": [
+        "cellulose",
+        "starch",
+        "glycogen",
+        "amylopectin",
+        "amylase"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 46,
+      "question": "The dimensions of $\\dfrac{B}{E}$ are (B- Magnetic induction, E-electric field intensity)",
+      "options": [
+        "$M^0 L^{-2} T^{1}$",
+        "$M^0 L^{-1} T^{-2}$",
+        "$M^0 L^{1} T^{1}$",
+        "$M^0 L^{-1} T^{1}$",
+        "$M^0 L^{1} T^{-1}$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 47,
+      "question": "A hockey player hits a ball with an impulse of $15\\ Ns$. If time of hit is $0.2\\ s$, the average force exerted by the player on the ball is",
+      "options": ["75 N", "50 N", "15 N", "20 N", "25 N"],
+      "correct": 0
+    },
+    {
+      "id": 48,
+      "question": "If the position of the particle as a function of time $t$ is $\\vec{r} = 8t\\hat{i} + 3t^2\\hat{j} + 3\\hat{k}\\ m$, then the acceleration of the particle is (in $ms^{-2}$)",
+      "options": ["6", "3", "8", "4", "5"],
+      "correct": 0
+    },
+    {
+      "id": 49,
+      "question": "The force acting on the particle of $0.2\\ kg$ mass whose displacement is described by the equation $x = 3t + 7t^2\\ m$ is",
+      "options": ["1.0 N", "3.2 N", "6.4 N", "8.6 N", "2.8 N"],
+      "correct": 4
+    },
+    {
+      "id": 50,
+      "question": "A bullet of $10\\ g$ mass is fired at a speed of $50\\ ms^{-1}$ by a gun of $2\\ kg$ mass. The recoil speed of the gun (in $ms^{-1}$) is",
+      "options": ["0.3", "0.25", "0.5", "0.75", "1.25"],
+      "correct": 1
+    },
+    {
+      "id": 51,
+      "question": "The work done to lift a $60\\ kg$ mass to a height of $5\\ m$ from the ground is $(g = 10\\ ms^{-2})$",
+      "options": ["$3000\\ J$", "$750\\ J$", "$1250\\ J$", "$6000\\ J$", "$4500\\ J$"],
+      "correct": 0
+    },
+    {
+      "id": 52,
+      "question": "Energy equivalent of mass $0.5\\ kg$ is",
+      "options": ["$9 \\times 10^{16}\\ J$", "$3 \\times 10^{16}\\ J$", "$2.5 \\times 10^{16}\\ J$", "$6 \\times 10^{16}\\ J$", "$4.5 \\times 10^{16}\\ J$"],
+      "correct": 4
+    },
+    {
+      "id": 53,
+      "question": "Three particles of equal mass lie at distances of $1\\ cm$, $2\\ cm$ and $3\\ cm$ from the origin. The distance of their centre of mass from the origin is",
+      "options": ["$2\\ cm$", "$1\\ cm$", "$2.5\\ cm$", "$3\\ cm$", "$6\\ cm$"],
+      "correct": 0
+    },
+    {
+      "id": 54,
+      "question": "Angular momentum of a particle will not be zero, if the",
+      "options": ["angle between position vector and linear momentum is $0^{\\circ}$", "particle is at the origin", "angle between position vector and linear momentum is $90^{\\circ}$", "linear momentum vanishes", "angle between position vector and linear momentum is $180^{\\circ}$"],
+      "correct": 2
+    },
+    {
+      "id": 55,
+      "question": "An astronaut experiences weightlessness in space satellite because",
+      "options": ["the gravitational force is small at that location", "both the astronaut and the satellite are in free fall towards earth", "of the small gravity in the horizontal direction", "of the small gravity in the vertical direction", "of the gravitational pull of the moon"],
+      "correct": 1
+    },
+    {
+      "id": 56,
+      "question": "For smaller deformations, stress is directly proportional to the strain for any material. Then the constant of proportionality is called as its",
+      "options": ["modulus of elasticity", "Poisson’s ratio", "compressibility", "coefficient of deformation", "mechanical strength"],
+      "correct": 0
+    },
+    {
+      "id": 57,
+      "question": "Which one of the following principles helps to explain the flow of blood in artery?",
+      "options": ["Magnus effect", "Boyle’s law", "Pascal’s law", "Bernoulli’s principle", "Archimedes’ principle"],
+      "correct": 3
+    },
+    {
+      "id": 58,
+      "question": "An ideal Carnot engine has an efficiency of $40\\%$. The ratio of the temperature of the sink to that of the source is",
+      "options": ["$0.4$", "$0.6$", "$0.5$", "$0.2$", "$0.3$"],
+      "correct": 1
+    },
+    {
+      "id": 59,
+      "question": "If $Q_1$ and $Q_2$ are respectively, the heat supplied and expelled by a system at a constant temperature, then the work done by the system is",
+      "options": ["$Q_1 - Q_2$", "$Q_1 + Q_2$", "$\\frac{Q_1 - Q_2}{2}$", "$\\frac{Q_2 - Q_1}{2}$", "$\\frac{Q_1 + Q_2}{2}$"],
+      "correct": 0
+    },
+    {
+      "id": 60,
+      "question": "For the oscillations of a spring with spring constant $k$, the false statement is",
+      "options": ["Stiff springs have high value of $k$", "Soft springs have small value of $k$", "The spring constant is independent of the elastic properties of the spring", "For smaller oscillations the spring executes simple harmonic motion", "The period of oscillations of the spring depends upon the value of $k$"],
+      "correct": 2
+    },
+    {
+      "id": 61,
+      "question": "If the amplitude of the wave $y = 3\\sin(3x - 5t) + A\\cos(3x - 5t)$ m is 5 m, the value of $A$ is",
+      "options": ["$3\\ m$", "$2\\ m$", "$1\\ m$", "$5\\ m$", "$4\\ m$"],
+      "correct": 4
+    },
+    {
+      "id": 62,
+      "question": "In dielectrics, polarization is the dipole moment per unit",
+      "options": ["area", "lectric field", "volume", "length", "charge"],
+      "correct": 2
+    },
+    {
+      "id": 63,
+      "question": "The energy density of the electric field $2\\ Vm^{-1}$ in a capacitor $C$ is ($\\varepsilon_0$ is the permittivity of free space)",
+      "options": ["$3\\ \\varepsilon_0$", "$\\frac{\\varepsilon_0}{2}$", "$4\\ \\varepsilon_0$", "$\\frac{\\varepsilon_0}{4}$", "$2\\ \\varepsilon_0$"],
+      "correct": 4
+    },
+    {
+      "id": 64,
+      "question": "A carbon resistor has a tolerance of 20%. As per the colour codes of resistors, the last band in that resistor is",
+      "options": ["silver", "absent", "red", "gold", "blue"],
+      "correct": 1
+    },
+    {
+      "id": 65,
+      "question": "When a current of 2 A flows through a wire for 2.5 s, the amount of heat liberated is 20 J. The resistance of the wire is",
+      "options": ["$4\\ \\Omega$", "$3\\ \\Omega$", "$1\\ \\Omega$", "$2\\ \\Omega$", "$5\\ \\Omega$"],
+      "correct": 3
+    },
+    {
+      "id": 66,
+      "question": "The magnetic moment of an electron revolving in an orbit of 0.5 m radius with a velocity of $8 \\times 10^7\\ ms^{-1}$ is(in $Am^2$)",
+      "options": ["$3.2 \\times 10^{-1}$", "$0.4 \\times 10^{-12}$", "$6.4 \\times 10^{-1}$", "$1.6 \\times 10^{-12}$", "$0.8 \\times 10^{-12}$"],
+      "correct": 0
+    },
+    {
+      "id": 67,
+      "question": "If an electron moves with a velocity v in a magnetic field B, the magnetic force on the electron is maximum when the angle between v and B is",
+      "options": ["$30^\\circ$", "$180^\\circ$", "$60^\\circ$", "$90^\\circ$", "$0^\\circ$"],
+      "correct": 3
+    },
+    {
+      "id": 68,
+      "question": "The flux linked with a coil at any instant is given by $\\Phi = 5t^2 - 25t - 150$ (in SI unit). The emf induced in the coil at $t = 2s$ is",
+      "options": ["$+5\\ V$", "$+3\\ V$", "$-1\\ V$", "$-5\\ V$", "$-3\\ V$"],
+      "correct": 0
+    },
+    {
+      "id": 69,
+      "question": "If the frequency of an electromagnetic wave is 2 MHz, then the time period of oscillation of the accelerated charge is",
+      "options": ["$2.5 \\times 10^{-7}\\ s$", "$1 \\times 10^{-7}\\ s$", "$5 \\times 10^{-7}\\ s$", "$6 \\times 10^{-7}\\ s$", "$2 \\times 10^{-7}\\ s$"],
+      "correct": 2
+    },
+    {
+      "id": 70,
+      "question": "The eye defect astigmatism can be corrected by using a",
+      "options": ["convex lens", "spherical lens", "plano-convex lens", "concave lens", "cylindrical lens"],
+      "correct": 4
+    },
+    {
+      "id": 71,
+      "question": "The intensity of a polarized light can be controlled by a second polarizer from",
+      "options": ["100% to 0%", "50% to 0%", "25% to 0%", "10% to 0%", "75% to 0%"],
+      "correct": 1
+    },
+    {
+      "id": 72,
+      "question": "If a particle is moving with a momentum of $(2 \\times 10^{10})h\\ kgms^{-1}$ then the de Broglie wavelength associated with it (in angstrom) is (where h is Planck’s constant)",
+      "options": ["1.5", "2.5", "1.0", "0.5", "0.75"],
+      "correct": 3
+    },
+    {
+      "id": 73,
+      "question": "The angular momentum of the electron revolving in $2^{nd}$ orbit is",
+      "options": [
+        "$\\dfrac{h}{\\pi}$",
+        "$\\dfrac{h}{2\\pi}$",
+        "$\\dfrac{2h}{\\pi}$",
+        "$\\dfrac{3h}{2\\pi}$",
+        "$\\dfrac{h}{3\\pi}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 74,
+      "question": "In the nuclear process, $^{22}_{11}Na \\rightarrow ^{22}_{10}Ne + e^{+} + X$, then $X$ is",
+      "options": ["neutrino", "anti-neutrino", "electron", "positron", "neutron"],
+      "correct": 0
+    },
+    {
+      "id": 75,
+      "question": "In a semiconductor crystal, the total number of electrons in the outer shell is $4N$. At absolute zero, the number of energy states of valence and conduction band are respectively",
+      "options": ["0 and 4N", "4N and 4N", "4N and 0", "8N and 0", "0 and 8N"],
+      "correct": 1
+    }
+  ]
+}
