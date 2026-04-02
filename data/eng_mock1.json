@@ -217,7 +217,7 @@
     },
     {
       "id": 19,
-      "question": "Let $P = \\begin{pmatrix}1 & 1 & 1 \\\\ 0 & 2 & 2 \\\\ 0 & 0 & 3\\end{pmatrix}$ and $Q = \\begin{pmatrix}2 & 1 & 2/3 \\\\ 0 & 4 & 4/3 \\\\ 0 & 0 & 6\\end{pmatrix}$. Then the $\\det(PQ^{-1})$ is equal to",
+      "question": "Let $P = \\begin{pmatrix}1 & 1 & 1 \\\\ 0 & 2 & 2 \\\\ 0 & 0 & 3\\end{pmatrix}$ and $Q = \\begin{pmatrix}2 & 1 & 2/3 \\\\ 0 & 4 & 4/3 \\\\ 0 & 0 & 6\\end{pmatrix}$. Then the $\\det(QPQ^{-1})$ is equal to",
       "options": ["$12$", "$8$", "$48$", "$24$", "$6$"],
       "correct": 4
     },
