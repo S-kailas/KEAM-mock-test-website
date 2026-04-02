@@ -1,0 +1,790 @@
+{
+  "test_id":"bpharm_mock2.json",
+  "duration_minutes": 90,
+
+  "marks_correct": 4,
+  "marks_wrong": -1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "1. What is the value of the sum of $12.1100 + 18.0 + 1.012$ as per the rule of significant figures?",
+      "options": [
+        "$31.1220$",
+        "$31.122$",
+        "$31.12$",
+        "$31.1$",
+        "$31$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 2,
+      "question": "2. In which of the following spectral region Balmer series lines are observed for atomic hydrogen?",
+      "options": [
+        "Visible",
+        "Ultraviolet",
+        "Microwave",
+        "Infrared",
+        "Radiowave"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "3. The product of uncertainty in position $(\\Delta x)$ and uncertainty in velocity $(\\Delta v)$ has the unit of",
+      "options": [
+        "$m s^{-1}$",
+        "$m s^{-2}$",
+        "$m^2 s$",
+        "$m^{-2} s^{-1}$",
+        "$m s^{-2} s$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 4,
+      "question": "4. The inert gas element with the largest positive electron gain enthalpy is",
+      "options": [
+        "$He$",
+        "$Ne$",
+        "$Kr$",
+        "$Ar$",
+        "$Rn$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "5. The IUPAC name of element with atomic number 105 is",
+      "options": [
+        "Mendelevium",
+        "Nobelium",
+        "Lawrencium",
+        "Rutherfordium",
+        "Dubnium"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 6,
+      "question": "6. In which one of the following compounds, there is complete octet of central atom?",
+      "options": [
+        "$BF_3$",
+        "$BeH_2$",
+        "$SCl_2$",
+        "$AlCl_3$",
+        "$LiCl$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "question": "7. Which one of the following molecule/ion has square planar shape?",
+      "options": [
+        "$SF_4$",
+        "$NH_4^+$",
+        "$CH_2Cl_2$",
+        "$CH_4$",
+        "$XeF_4$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 8,
+      "question": "8. Which of the following relationship is correct?",
+      "options": [
+        "$C_p + C_v = R$",
+        "$C_p / C_v = R$",
+        "$C_p - C_v = R$",
+        "$C_v / C_p = R$",
+        "$C_v - C_p = R$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "9. Consider the following thermodynamic properties of a system: (i) Volume (ii) Pressure (iii) Density (iv) Heat capacity The extensive property/properties of the system is/are",
+      "options": [
+        "(ii) and (iv)",
+        "(iv) only",
+        "(i), (ii) and (iii)",
+        "(i) and (iv)",
+        "(iii) and (iv)"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "question": "10. An aqueous solution of which of the following has the highest pH value?",
+      "options": [
+        "$0.10\\ M\\ HCl$",
+        "$0.50\\ M\\ H_2SO_4$",
+        "$0.10\\ M\\ NaOH$",
+        "$0.5\\ M HCl$",
+        "$0.01\\ M NaOH$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "question": "In the following reaction, the change in oxidation state of Magnesium is\n$3Mg_{(s)} + N_{2(g)} \\xrightarrow{\\Delta} Mg_3N_{2(s)}$",
+      "options": [
+        "$0$ to $+2$",
+        "$0$ to $+3$",
+        "$0$ to $+4$",
+        "$0$ to $+6$",
+        "$0$ to $-2$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "The resistance of $0.10\\ M$ KCl solution when measured with a conductivity cell at $298\\ K$ is $100\\ \\Omega$. If the conductivity of $0.10\\ M$ KCl solution is $1.29\\ Sm^{-1}$, what is the value of cell constant of the same solution at $298\\ K$?",
+      "options": [
+        "$1.29\\ m^{-1}$",
+        "$1.29 \\times 10^{-2}\\ m^{-1}$",
+        "$0.129\\ cm^{-1}$",
+        "$1.29\\ cm^{-1}$",
+        "$0.129\\ m^{-1}$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 13,
+      "question": "$N_2$ exerts a partial pressure of $7.648\\ \\text{bar}$ when dissolved in $1\\ \\text{litre}$ of water at $298\\ K$. What is the mole fraction of $N_2$ at same temperature? (Henry’s law constant $(K_H)$ for $N_2$ at $298\\ K = 76.4\\ k\\ \\text{bar}$)",
+      "options": [
+        "$10^{-5}$",
+        "$10^{-3}$",
+        "$10^{-4}$",
+        "$10^{-6}$",
+        "$10^{-2}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "question": "An example of pseudo first order reaction is",
+      "options": [
+        "Thermal decomposition of $N_2O_5$",
+        "Inversion of cane sugar",
+        "Decomposition of gaseous $NH_3$ on hot Pt surface",
+        "Radioactive decay of $^{226}_{88}R$",
+        "Hydrogenation of ethene"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "For a first order reaction with rate constant ‘$k$’, the slope of the line obtained by plotting $\\log([R_0]/[R])$ vs time is",
+      "options": [
+        "$(k/2.303)$",
+        "$k \\times 2.303$",
+        "$(-k/2.303)$",
+        "$(2.303/k)$",
+        "$(-2.303/k)$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "question": "The outer electronic configuration of ground state chromium is",
+      "options": [
+        "$3d^6 4s^0$",
+        "$3d^5 4s^1$",
+        "$3d^4 4s^2$",
+        "$4d^6 4s^0$",
+        "$4d^4 4s^2$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "question": "The first transition series metal with the highest melting point is",
+      "options": [
+        "Iron",
+        "Vanadium",
+        "Chromium",
+        "Manganese",
+        "Copper"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "question": "Which of the following $3d$ metal forms only dihalide?",
+      "options": [
+        "Titanium",
+        "Vanadium",
+        "Copper",
+        "Chromium",
+        "Zinc"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 19,
+      "question": "When potassium permanganate is heated to $513\\ K$ it forms",
+      "options": [
+        "$Mn_2O_3$ and $O_2$",
+        "$MnO_2$ and $K_2O$",
+        "$Mn_2O_3, MnO_2$ and $K_2O$",
+        "$K_2MnO_4, MnO_2$ and $O_2$",
+        "$K_2MnO_4$ and $O_2$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 20,
+      "question": "Which of the following lanthanoid has the outer electronic configuration $4f^7 6s^2$ in its ground state?",
+      "options": [
+        "Neodymium",
+        "Gadolinium",
+        "Europium",
+        "Promethium",
+        "Samarium"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "question": "Which of the following statement is INCORRECT?",
+      "options": ["The actinoids show in general +3 oxidation state.", "Actinoids are less reactive metals.", "The magnetic properties of actinoids are more complex than those of lanthanoids.", "Hydrochloric acid attacks actinoids.", "Nitric acid slightly attacks actinoids."],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "When $CoCl_3$ solution is treated with excess ammonia, a violet coloured complex is formed which conducts current. Also, it gives one mole of $AgCl$ when treated with $AgNO_3$. What is the chemical formula of the complex?",
+      "options": ["$[CoCl_2(NH_3)_4]Cl$", "$[CoCl_3(NH_3)_3]$", "$[CoCl(NH_3)_5]Cl_2$", "$[Co(NH_3)_6]Cl_3$", "$[Co(NH_3)_4]Cl_3$"],
+      "correct": 0
+    },
+    {
+      "id": 23,
+      "question": "The IUPAC name of the following complex $[Cr(H_2O)_3(NH_3)_3]Cl_3$ is",
+      "options": ["Triamminetriaquachromium(III) chloride", "Triaquatriamminechromium(III) chloride", "Triaquatriamminechromium(II) chloride", "Triamminetriaquachromium(II) chloride", "Triaquatriamminechromium(III) trichloride"],
+      "correct": 0
+    },
+    {
+      "id": 24,
+      "question": "$[Fe(H_2O)_5(ONO)]Cl$ and $[Fe(H_2O)_5(NO_2)]Cl$ are the examples of",
+      "options": ["Solvate isomerism", "Geometrical isomerism", "Linkage isomerism", "Ionisation isomerism", "Coordination isomerism"],
+      "correct": 3
+    },
+    {
+      "id": 25,
+      "question": "Which of the following complex ion is diamagnetic?",
+      "options": ["$[MnCl_6]^{3-}$", "$[Fe(CN)_6]^{3-}$", "$[Co(C_2O_4)_3]^{3-}$", "$[FeF_6]^{3-}$", "$[CoF_6]^{3-}$"],
+      "correct": 2
+    },
+    {
+      "id": 26,
+      "question": "Which one of the following is an example of heterocyclic aromatic compound?",
+      "options": ["Phenol", "Aniline", "Toluene", "Naphthalene", "Furan"],
+      "correct": 4
+    },
+    {
+      "id": 27,
+      "question": "Which of the following functional groups will show $-R$ effect?",
+      "options": ["$-OH$", "$-OCH_3$", "$-NH_2$", "$-NO_2$", "$-NHCOCH_3$"],
+      "correct": 3
+    },
+    {
+      "id": 28,
+      "question": "When bromoethane is treated with metallic $Na$ in dry ethereal solution, n-butane is formed. This reaction is known as",
+      "options": ["Kolbe’s reaction", "Wurtz reaction", "Williamson reaction", "Fittig reaction", "Friedel-Crafts reaction"],
+      "correct": 1
+    },
+    {
+      "id": 29,
+      "question": "Which of the following compound does not exhibit aromaticity?",
+      "options": ["Cyclohexene", "Benzene", "Thiophene", "Pyridine", "Naphthalene"],
+      "correct": 0
+    },
+    {
+      "id": 30,
+      "question": "The $ortho-$, $para-$ directing and deactivating group in aromatic electrophilic substitution reaction is",
+      "options": ["$-CH_3$", "$-OH$", "$-Cl$", "$-NO_2$", "$-COOH$"],
+      "correct": 2
+    },
+    {
+      "id": 31,
+      "question": "31. The hydrocarbon that forms disodium salt with excess metallic sodium is",
+      "options": [
+        "ethane",
+        "ethene",
+        "benzene",
+        "propyne",
+        "ethyne"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 32,
+      "question": "32. Which of the following compound will have highest boiling point ?",
+      "options": [
+        "$CH_3F$",
+        "$CH_3CH_2F$",
+        "$CH_3Cl$",
+        "$CH_3I$",
+        "$CH_3Br$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 33,
+      "question": "33. When chlorobenzene is treated with acetyl chloride in the presence of anhydrous $AlCl_3$, 4-Chloroacetophenone is formed as the major product. It is an example of",
+      "options": [
+        "Nucleophilic substitution",
+        "Electrophilic substitution",
+        "Free radical substitution",
+        "Nucleophilic addition",
+        "Electrophilic addition"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "question": "34. An optically active compound among the following is",
+      "options": [
+        "1-Chlorobutane",
+        "neo-Pentyl chloride",
+        "Isobutyl chloride",
+        "tert-Butyl chloride",
+        "2-Chlorobutane"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 35,
+      "question": "35. Phenetole is",
+      "options": [
+        "Ethoxybenzene",
+        "Methoxyethane",
+        "Methoxybenzene",
+        "1-Methoxypropane",
+        "2-Methoxypropane"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 36,
+      "question": "36. Acetone can be converted into 2-methylpropan-2-ol using",
+      "options": [
+        "$Pd / H_2$",
+        "$B_2H_6 / H_2O_2, NaOH$",
+        "$CH_3MgI / H_2O$",
+        "$LiAlH_4$",
+        "$NaBH_4$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 37,
+      "question": "37. Which of the following is the weakest acid?",
+      "options": [
+        "Phenol",
+        "$p$-Nitrophenol",
+        "$p$-Cresol",
+        "Ethanol",
+        "$m$-Cresol"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 38,
+      "question": "38. Lucas reagent is",
+      "options": [
+        "$Con.\\ HNO_3 + ZnCl_2$",
+        "$Con.\\ HCl + ZnCl_2$",
+        "$Con.\\ H_2SO_4 + ZnCl_2$",
+        "Acetic acid + $ZnCl_2$",
+        "Oleium + $ZnCl_2$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "39. Which of the following carboxylic acid is used in the manufacture of nylon-6,6?",
+      "options": [
+        "Ethanedioic acid",
+        "Propanedioic acid",
+        "Butanedioic acid",
+        "Pentanedioic acid",
+        "Hexanedioic acid"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 40,
+      "question": "40. The reagent/s employed in Etard reaction is/are",
+      "options": [
+        "$Cl_2 / h\\nu, H_3O^+$",
+        "$CrO_2Cl_2 / CS_2, H_3O^+$",
+        "$CO, HCl, anhydrous\\ AlCl_3 / CuCl$",
+        "$SnCl_2, HCl$",
+        "DIBAL-H"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 41,
+      "question": "Nitrobenzene is treated with $Sn/HCl$ to give a compound $(X)$ which on treatment with $NaNO_2$ and $HCl$ at $278\\ K$ gives compound $(Y)$. When the compound $(Y)$ is treated with $Cu/HBr$, compound $Z$ is obtained. The compound $Z$ is",
+      "options": [
+        "Benzene",
+        "Benzene diazonium bromide",
+        "Phenol",
+        "Bromobenzene",
+        "Chlorobenzene"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 42,
+      "question": "Carbylamine is obtained when aniline is",
+      "options": [
+        "heated with $Con.H_2SO_4$",
+        "treated with $NaNO_2/HCl$",
+        "heated with $CHCl_3$ and ethanolic $KOH$",
+        "treated with $CHCl_3$ and $HCl$",
+        "treated with $HCl$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 43,
+      "question": "The following amines are having same molecular masses.\n(i) $n-C_4H_9NH_2$  (ii) $(C_2H_5)_2NH$  (iii) $C_2H_5N(CH_3)_2$\nThe correct order of boiling point of the above amines is",
+      "options": [
+        "$(i) > (ii) > (iii)$",
+        "$(ii) > (iii) > (i)$",
+        "$(iii) > (i) > (ii)$",
+        "$(ii) > (i) > (iii)$",
+        "$(i) > (iii) > (ii)$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 44,
+      "question": "Which of the following vitamin deficiency causes convulsions?",
+      "options": [
+        "Riboflavin",
+        "Thiamine",
+        "Ascorbic acid",
+        "Pyridoxine",
+        "Vitamin D"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 45,
+      "question": "Which of the following amino acid is optically inactive?",
+      "options": [
+        "Glycine",
+        "Alanine",
+        "Valine",
+        "Leucine",
+        "Arginine"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 46,
+      "question": "The value of one barn in SI unit is",
+      "options": [
+        "$10^{-28} m^2$",
+        "$10^{-20} m^2$",
+        "$10^{-16} m^2$",
+        "$10^{-32} m^2$",
+        "$10^{-15} m^2$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 47,
+      "question": "If a moving body changes its position from $x_1$ to $x_2$ in a time interval $\\Delta t$, then $\\frac{x_2 - x_1}{\\Delta t}$ is defined as",
+      "options": [
+        "average acceleration",
+        "average velocity",
+        "instantaneous acceleration",
+        "instantaneous velocity",
+        "average displacement"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 48,
+      "question": "A car at rest is accelerated at $2ms^{-2}$ for 1 minute and then retarded at $2ms^{-2}$ for 1 minute to attain rest. The distance travelled by the car is",
+      "options": [
+        "3600 m",
+        "1800 m",
+        "9600 m",
+        "4800 m",
+        "7200 m"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 49,
+      "question": "If the forces acting on two bodies of masses $2\\ kg$ and $3\\ kg$ are same, then the ratio of their respective accelerations is",
+      "options": [
+        "$1:1$",
+        "$1:2$",
+        "$2:3$",
+        "$3:2$",
+        "$4:9$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 50,
+      "question": "The area under the curve drawn between the force $F$ and time $t$ is",
+      "options": [
+        "torque",
+        "impulse",
+        "work done",
+        "power",
+        "kinetic energy"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 51,
+      "question": "A rain drop of mass $10\\ g$ falls from a height of $50\\ m$ from rest. If the loss of energy due to air resistance is $3\\ J$, then the velocity of the drop on striking the ground is $(g = 10\\ ms^{-2})$",
+      "options": ["$10\\ ms^{-1}$", "$5\\ ms^{-1}$", "$30\\ ms^{-1}$", "$40\\ ms^{-1}$", "$20\\ ms^{-1}$"],
+      "correct": 4
+    },
+    {
+      "id": 52,
+      "question": "A lift with a load of $1000\\ kg$ is moving up against the frictional force $2000\\ N$. If the power delivered to it by the operating motor is $36000\\ W$, then the speed of the lift is $(g = 10\\ ms^{-2})$",
+      "options": ["$2\\ ms^{-1}$", "$4\\ ms^{-1}$", "$3\\ ms^{-1}$", "$6\\ ms^{-1}$", "$10\\ ms^{-1}$"],
+      "correct": 2
+    },
+    {
+      "id": 53,
+      "question": "The CORRECT statement for a rigid body rotating about a fixed axis with angular velocity $\\omega$ is",
+      "options": ["$\\omega$ is directed perpendicular to the axis of rotation", "all the particles move with same speed", "$\\omega$ is a scalar quantity", "$\\omega$ has no direction", "different particles move in different circles"],
+      "correct": 4
+    },
+    {
+      "id": 54,
+      "question": "If the moment of inertia of a circular disc about its central axis is $I$, then that for the same disc about its diameter is",
+      "options": ["$I$", "$2I$", "$4I$", "$\\frac{I}{2}$", "$\\frac{I}{4}$"],
+      "correct": 3
+    },
+    {
+      "id": 55,
+      "question": "The line that joins any planet to the sun sweeps out equal areas in equal intervals of time. This statement is",
+      "options": ["Kepler’s first law", "law of periods", "law of gravitation", "Kepler’s second law", "Newtons third law"],
+      "correct": 3
+    },
+    {
+      "id": 56,
+      "question": "Young’s modulus and shear modulus can be defined only in",
+      "options": ["solids and liquids", "liquids", "gases", "gases and liquids", "solids"],
+      "correct": 4
+    },
+    {
+      "id": 57,
+      "question": "If $T$ and $\\eta$ are the surface tension and coefficient of viscosity of a liquid, then with the increase of temperature",
+      "options": ["both $T$ and $\\eta$ increase", "both $T$ and $\\eta$ decrease", "both $T$ and $\\eta$ remain constant", "$T$ increases but $\\eta$ decreases", "$T$ decreases but $\\eta$ increases"],
+      "correct": 1
+    },
+    {
+      "id": 58,
+      "question": "The speed of water flowing out from the small opening at a depth of $h$ from the surface of water in a large tank is",
+      "options": ["$\\sqrt{gh}$", "$\\sqrt{4gh}$", "$gh$", "$2gh$", "$\\sqrt{2gh}$"],
+      "correct": 4
+    },
+    {
+      "id": 59,
+      "question": "For a diatomic gas molecule the value of $C_v$ in $Jmol^{-1}K^{-1}$ is $(R = 8.2\\ Jmol^{-1}K^{-1})$",
+      "options": ["$20.5$", "$41$", "$10.25$", "$12.3$", "$28.7$"],
+      "correct": 0
+    },
+    {
+      "id": 60,
+      "question": "A steel rod of length $1\\ m$ is clamped at its middle. If the fundamental frequency of vibrations is $3\\ kHz$, then the speed of sound in steel is",
+      "options": ["$2000\\ ms^{-1}$", "$6000\\ ms^{-1}$", "$8000\\ ms^{-1}$", "$4000\\ ms^{-1}$", "$9000\\ ms^{-1}$"],
+      "correct": 1
+    },
+    {
+      "id": 61,
+      "question": "When a cricketer catches a ball in $30\\ \\text{s}$, the force required is $2.5\\ \\text{N}$. The force required to catch that ball in $50\\ \\text{s}$ is",
+      "options": [
+        "$1.5\\ \\text{N}$",
+        "$1\\ \\text{N}$",
+        "$2.5\\ \\text{N}$",
+        "$3\\ \\text{N}$",
+        "$5\\ \\text{N}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 62,
+      "question": "The electrostatic force between two point charges at a distance of separation $d$ is $F$. If one of the charge is moved away by a distance $d/2$ then the force between them is",
+      "options": [
+        "$\\frac{2}{3}F$",
+        "$\\frac{9}{4}F$",
+        "$\\frac{4}{9}F$",
+        "$\\frac{3}{2}F$",
+        "$\\sqrt{2}F$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 63,
+      "question": "Which one of the following molecules is nonpolar?",
+      "options": [
+        "$CO_2$",
+        "$H_2O$",
+        "$CH_3OH$",
+        "$HCl$",
+        "$NaCl$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 64,
+      "question": "The resistance of a wire of length $l$ and cross sectional area $A$ is $R$. The resistance of another wire of the same material of length $3l$ and cross sectional area $\\frac{A}{3}$ is",
+      "options": [
+        "$3R$",
+        "$R$",
+        "$9R$",
+        "$\\frac{R}{3}$",
+        "$\\frac{R}{9}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 65,
+      "question": "The energy dissipated per unit time by a wire of resistance $2R$ connected to a battery of voltage $2V$ is",
+      "options": [
+        "$\\frac{4V^2}{R}$",
+        "$\\frac{4V}{R}$",
+        "$\\frac{2V^2}{R}$",
+        "$4VR^2$",
+        "$4V^2R^2$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 66,
+      "question": "The magnetic field at the centre of a current loop of radius $r$ carrying a current $I$ is",
+      "options": [
+        "$\\frac{\\mu_0 I}{2r}$",
+        "$\\frac{\\mu_0 I}{r}$",
+        "$\\frac{\\mu_0 I}{\\pi r}$",
+        "$\\frac{\\mu_0 I}{2\\pi r}$",
+        "$\\frac{2\\mu_0 I}{r}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 67,
+      "question": "If a current of $1\\ \\text{A}$ is passed through a $1\\ \\text{m}$ long solenoid of $7000$ turns, the magnetic field produced at the middle of the solenoid is",
+      "options": [
+        "$2.2 \\times 10^{-3}\\ T$",
+        "$4.4 \\times 10^{-3}\\ T$",
+        "$7.0 \\times 10^{-4}\\ T$",
+        "$8.8 \\times 10^{-3}\\ T$",
+        "$14.0 \\times 10^{-4}\\ T$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 68,
+      "question": "The a.c circuit exhibiting the phenomenon of resonance has/have the circuit element(s)",
+      "options": [
+        "inductor and resistor",
+        "capacitor and resistor",
+        "inductor only",
+        "capacitor only",
+        "inductor and capacitor"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 69,
+      "question": "The vibrations of atoms and molecules produce electromagnetic radiation in the region of",
+      "options": [
+        "ultraviolet",
+        "infrared",
+        "visible light",
+        "microwaves",
+        "X-rays"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 70,
+      "question": "Monochromatic ray of light incident on a glass prism does not produce the phenomenon of",
+      "options": [
+        "dispersion",
+        "refraction",
+        "deviation",
+        "reflection",
+        "total internal reflection"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 71,
+      "question": "The simple microscope having a lens of focal length $5\\ \\text{cm}$ gives the magnification of (least distance of distinct vision $= 25\\ \\text{cm}$)",
+      "options": [
+        "$5$",
+        "$6$",
+        "$4$",
+        "$10$",
+        "$12$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 72,
+      "question": "If the threshold wavelength of a photoelectric material lies in the green light region, then which one of the following light will not emit photoelectrons?",
+      "options": [
+        "Ultraviolet",
+        "Blue",
+        "Violet",
+        "Orange",
+        "Indigo"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 73,
+      "question": "The process that releases neutrons from the nucleus is",
+      "options": [
+        "$\\alpha$-decay",
+        "$\\beta$-decay",
+        "nuclear fusion",
+        "pair production",
+        "nuclear fission"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 74,
+      "question": "If the volume of nucleus having mass number $2$ is $V$, then that for the nucleus having mass number $8$ is",
+      "options": [
+        "$2V$",
+        "$3V$",
+        "$4V$",
+        "$6V$",
+        "$9V$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 75,
+      "question": "If a diode is forward biased, then the",
+      "options": [
+        "p-n junction provides very low resistance",
+        "width of the depletion layer increases",
+        "potential barrier increases",
+        "amount of current flow is in the range of microampere",
+        "current flow is due to minority carriers only"
+      ],
+      "correct": 0
+    }
+    
+  ]
+}

@@ -1,0 +1,1474 @@
+{
+  "test_id":"eng_mock2",
+  "duration_minutes": 180,
+
+  "marks_correct": 4,
+  "marks_wrong": -1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Let $A, B, C$ be any three finite sets. If $n(A \\times B) = 160, n(B \\times C) = 80$ and $n(C \\times A) = 200$, then $n(A) =$",
+      "options": [
+        "$10$",
+        "$18$",
+        "$16$",
+        "$12$",
+        "$20$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 2,
+      "question": "Let $f(x) = x^2 - 10x - 19, x \\in \\mathbb{R}$. Then the inverse image of $5, f^{-1}(5) =$",
+      "options": [
+        "$\\{-2, -12\\}$",
+        "$\\{-2, 12\\}$",
+        "$\\{2, -12\\}$",
+        "$\\{2, 12\\}$",
+        "$\\phi$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Let $f(x) = \\cos x$. Then the value of $\\frac{1}{2}[f(x + y) + f(y - x)] - f(x)f(y)$ is equal to",
+      "options": [
+        "$2$",
+        "$-2$",
+        "$1$",
+        "$-1$",
+        "$0$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 4,
+      "question": "Let $f(x) = \\log_5 x (x > 0)$ and $g(x) = \\cos^{-1} x (-1 \\leq x \\leq 1)$. Then the domain of $g \\circ f$ is",
+      "options": [
+        "$(0,1]$",
+        "$[-1, a)$",
+        "$[0, a)$",
+        "$\\left[\\frac{1}{5}, 5\\right]$",
+        "$[-1,5]$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 5,
+      "question": "Let $z = 1 + \\frac{1}{i}$. Then the value of $z^4$ is equal to",
+      "options": [
+        "$4$",
+        "$-4$",
+        "$1 - i$",
+        "$1 + i$",
+        "$i$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "question": "The modulus of the complex number $(2\\sqrt{2} + i2\\sqrt{2})^2$ is equal to",
+      "options": [
+        "$64$",
+        "$4$",
+        "$32$",
+        "$8$",
+        "$16$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 7,
+      "question": "If $z + \\bar{z} = 6$ and $z - \\bar{z} = 4i$, then $|z|^2 =$",
+      "options": [
+        "$36$",
+        "$16$",
+        "$15$",
+        "$13$",
+        "$9$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 8,
+      "question": "Let $z = \\frac{2 - i}{\\alpha + i}$, where $\\alpha$ is a real number. If $4Re(z) = 3Im(\\bar{z})$ then the value of $\\alpha$ is",
+      "options": [
+        "$5$",
+        "$-5$",
+        "$3$",
+        "$2$",
+        "$-2$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 9,
+      "question": "In a G.P., the first and third terms are $4$ and $8$ respectively. Then the $21^{st}$ term is",
+      "options": [
+        "$4012$",
+        "$4064$",
+        "$4098$",
+        "$2048$",
+        "$4096$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 10,
+      "question": "Let $a_1, a_2, a_3, \\ldots$ be in G.P. If $a_1 \\cdot a_2 \\cdot a_3 = 64$ and $a_1 \\cdot a_2 \\cdot a_3 \\cdot a_4 \\cdot a_5 = 32$, then common ratio is",
+      "options": [
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 11,
+      "question": "The general term of a sequence is $t_n = \\frac{n(n+6)}{n+4}, n = 1, 2, 3, \\ldots$. If $t_n = 5$, then the value of $n$ is",
+      "options": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "question": "The product of first 5 terms of a G.P., whose terms are increasing, is $32$. The third term of the G.P. is",
+      "options": [
+        "$2$",
+        "$\\frac{1}{2}$",
+        "$4$",
+        "$\\frac{1}{8}$",
+        "$8$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "Let $\\alpha = \\sum_{k=0}^{5} {}^{10}C_{2k}$ and $\\beta = \\sum_{k=0}^{4} {}^{10}C_{2k+1}$. Then $\\alpha - \\beta$ is equal to",
+      "options": [
+        "$32$",
+        "$64$",
+        "$128$",
+        "$256$",
+        "$0$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 14,
+      "question": "If $\\alpha = {}^{n}C_r$ and $\\beta = {}^{n}C_{r-1}$, then $1 + \\frac{\\alpha}{\\beta}$ is equal to",
+      "options": [
+        "$\\frac{n+1}{r-1}$",
+        "$\\frac{n+1}{r}$",
+        "$\\frac{n-1}{1}$",
+        "$\\frac{n-r+1}{r}$",
+        "$\\frac{n+1}{r+1}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "If ${}^{11}P_r = 7920$, then the value of $r$ is equal to",
+      "options": [
+        "$7$",
+        "$6$",
+        "$5$",
+        "$4$",
+        "$3$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 16,
+      "question": "In the binomial expansion of $(2x + \\alpha)^8$, the co-efficients of $x^2$ and $x^3$ are equal. Then the value of $\\alpha$ is equal to",
+      "options": [
+        "$2$",
+        "$\\frac{1}{4}$",
+        "$4$",
+        "$\\frac{1}{2}$",
+        "$3$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "question": "Let $A = \\{0,2,4,6,8\\}$. The number of 5-digit numbers that can be formed using the digits in $A$ without replacement, is",
+      "options": [
+        "$120$",
+        "$96$",
+        "$88$",
+        "$64$",
+        "$32$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "Let $A$ be a $3 \\times 3$ matrix and let $B = 3A$. If $|A| = 5$, then the value of $\\frac{|adj\\ B|}{|3A|}$ is equal to",
+      "options": [
+        "$27$",
+        "$125$",
+        "$25$",
+        "$135$",
+        "$81$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 19,
+      "question": "If $\\begin{pmatrix}-1 & 2 \\\\ 3 & -4 \\\\ -5 & 6\\end{pmatrix} \\begin{pmatrix}7 \\\\ 8\\end{pmatrix} = \\begin{pmatrix}\\alpha \\\\ \\beta \\\\ 13\\end{pmatrix}$, then the value of $\\alpha + \\beta$ is equal to",
+      "options": [
+        "$-18$",
+        "$18$",
+        "$21$",
+        "$-21$",
+        "$-2$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 20,
+      "question": "If the matrix $\\begin{pmatrix}8-k & 2 \\\\ -2 & 4-k\\end{pmatrix}$ is singular, then the value of $k$ is equal to",
+      "options": [
+        "$6$",
+        "$5$",
+        "$4$",
+        "$3$",
+        "$2$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 21,
+      "question": "The following system of equations $x + y + z = 1$, $2x + 3y - mz = 2$, $3x + 5y + 3z = 3$ has no unique solution. Then the value of $m$ is equal to",
+      "options": ["$3$", "$5$", "$2$", "$-2$", "$-3$"],
+      "correct": 3
+    },
+    {
+      "id": 22,
+      "question": "The set of all $x$ satisfying the inequalities $-4 \\leq 2 - 3x < 7$ is",
+      "options": [
+        "$\\left(2, \\frac{5}{3}\\right)$",
+        "$\\left[2, \\frac{5}{3}\\right)$",
+        "$\\left[-\\frac{11}{3}, 2\\right]$",
+        "$\\left(-\\frac{5}{3}, 2\\right]$",
+        "$\\left[-\\frac{7}{3}, 2\\right)$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 23,
+      "question": "$-5 < x \\leq -1$ implies $-21 < 5x + 4 \\leq b$, the least value of $b$ is",
+      "options": ["$5$", "$-5$", "$-4$", "$4$", "$-1$"],
+      "correct": 4
+    },
+    {
+      "id": 24,
+      "question": "$\\tan 15^{\\circ} + \\tan 75^{\\circ} =$",
+      "options": [
+        "$\\sqrt{5} + 1$",
+        "$2$",
+        "$\\sqrt{7} - 1$",
+        "$4$",
+        "$0$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 25,
+      "question": "If $x + z = 2y$ and $y = \\frac{\\pi}{4}$, then $\\tan x \\tan y \\tan z =$",
+      "options": [
+        "$1$",
+        "$\\tan(x - y)$",
+        "$\\tan(z - y)$",
+        "$\\frac{1}{2}$",
+        "$0$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 26,
+      "question": "If $\\sin x + \\sin y = a$, $\\cos x + \\cos y = b$ and $x + y = \\frac{2\\pi}{3}$, then the value of $\\frac{a}{b}$ is equal to",
+      "options": [
+        "$\\frac{\\sqrt{3}}{3}$",
+        "$2\\sqrt{3}$",
+        "$\\sqrt{3}$",
+        "$4\\sqrt{3}$",
+        "$\\frac{\\sqrt{3}}{6}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "question": "If $\\sin \\alpha = \\frac{12}{13}$, where $\\frac{\\pi}{2} < \\alpha < \\frac{3\\pi}{2}$ then the value of $\\tan \\alpha$ is equal to",
+      "options": [
+        "$\\frac{5}{12}$",
+        "$\\frac{13}{5}$",
+        "$-\\frac{12}{5}$",
+        "$-\\frac{13}{5}$",
+        "$-\\frac{1}{12}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 28,
+      "question": "If $f(x) = \\tan^{-1}\\left(\\frac{2x}{1 - x^2}\\right)$, then $f\\left(\\frac{1}{\\sqrt{3}}\\right)$ is equal to",
+      "options": [
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{2\\pi}{3}$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{4\\pi}{3}$",
+        "$0$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 29,
+      "question": "if $5 \\sin^{-1} \\alpha + 3 \\cos^{-1} \\alpha = \\pi$, then $\\alpha$ is equal to",
+      "options": [
+        "$\\frac{1}{\\sqrt{2}}$",
+        "$1$",
+        "$-\\frac{1}{\\sqrt{2}}$",
+        "$-1$",
+        "$0$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 30,
+      "question": "If $\\theta = \\cot^{-1} \\sqrt{\\frac{1-x}{1+x}}$, then $sec^2 \\theta$",
+      "options": [
+        "$\\frac{1+x}{2}$",
+        "$\\frac{1-x}{2}$",
+        "$\\frac{2}{1-x}$",
+        "$x$",
+        "$2x$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 31,
+      "question": "If $\\frac{1}{1 - \\tan x} = \\frac{3 + \\sqrt{3}}{2}, \\; 0 \\leq x < \\frac{\\pi}{2}$, then the value of $x$ is equal to",
+      "options": [
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{5}$",
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{\\pi}{8}$",
+        "$\\frac{\\pi}{12}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 32,
+      "question": "Let $ABC$ be an equilateral triangle. If the coordinates of $A$ are $(-2, 2)$ and the side $BC$ is along the line $x + y = 6$, then the length of the side of the triangle is",
+      "options": [
+        "$2\\sqrt{3}$",
+        "$3\\sqrt{2}$",
+        "$4\\sqrt{6}$",
+        "$6\\sqrt{6}$",
+        "$2\\sqrt{6}$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 33,
+      "question": "The focus of the parabola $x^2 - 4x + 8y + 4 = 0$ is",
+      "options": [
+        "$(-2, -2)$",
+        "$(1, 1)$",
+        "$(2, 1)$",
+        "$(2, -2)$",
+        "$(1, 2)$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 34,
+      "question": "A circle touches the $x$-axis at $(9, 0)$. If it also touches the straight line $y = 14$, then the equation of the circle is",
+      "options": [
+        "$(x - 9)^2 + (y - 7)^2 = 49$",
+        "$x^2 + (y - 7)^2 = 49$",
+        "$(x - 9)^2 + y^2 = 49$",
+        "$(x - 9)^2 + (y - 7)^2 = 81$",
+        "$(x - 7)^2 + (y - 9)^2 = 49$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 35,
+      "question": "The length of major axis and minor axis of an ellipse are, respectively, $m$ and $n$. If $m^2 - n^2 = 45$ and the eccentricity of the ellipse is $\\frac{\\sqrt{5}}{3}$, then the length of the major axis is",
+      "options": [
+        "$13$",
+        "$6$",
+        "$12$",
+        "$18$",
+        "$9$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 36,
+      "question": "The vertex of the parabola $4y = x^2 - 6x + 17$ is",
+      "options": [
+        "$(3, 2)$",
+        "$(4, 3)$",
+        "$(4, 2)$",
+        "$(3, 7)$",
+        "$(7, 2)$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 37,
+      "question": "The eccentricity of the hyperbola $\\frac{(2x - 6)^2}{2} - \\frac{(4y + 7)^2}{16} = 1$ is",
+      "options": [
+        "$\\sqrt{5}$",
+        "$\\frac{\\sqrt{5}}{2}$",
+        "$\\sqrt{3}$",
+        "$\\sqrt{10}$",
+        "$\\frac{\\sqrt{3}}{2}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 38,
+      "question": "Let $\\vec{a} + \\vec{b} = \\lambda \\hat{i} + 16\\hat{j} - 18\\hat{k}$ and $\\vec{a} - \\vec{b} = 2\\hat{i} + 8\\hat{j} + \\lambda \\hat{k}$. If $\\vec{a} + \\vec{b}$ is perpendicular to $\\vec{a} - \\vec{b}$, then $|\\vec{a}| =$",
+      "options": [
+        "$5\\sqrt{13}$",
+        "$\\sqrt{174}$",
+        "$\\sqrt{184}$",
+        "$13\\sqrt{5}$",
+        "$\\sqrt{194}$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 39,
+      "question": "If $|\\vec{a}| = 12$ and the projection of $\\vec{a}$ on $\\vec{b}$ is $6\\sqrt{3}$, then the angle between $\\vec{a}$ and $\\vec{b}$ is",
+      "options": [
+        "$\\frac{\\pi}{2}$",
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{2\\pi}{3}$",
+        "$\\frac{3\\pi}{4}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 40,
+      "question": "Let $\\vec{a} = 6\\hat{i} + 2\\hat{j} + 3\\hat{k}$. If $\\vec{b}$ is parallel to $\\vec{a}$ and $\\vec{a} \\cdot \\vec{b} = \\frac{49}{2}$, then $|\\vec{b}| =$",
+      "options": [
+        "$49$",
+        "$7$",
+        "$14$",
+        "$7\\sqrt{2}$",
+        "$\\frac{7}{2}$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 41,
+      "question": "If $|\\vec{a} + \\vec{b}| = \\frac{\\sqrt{14}}{2}$ where $\\vec{a}$ and $\\vec{b}$ are unit vectors, then the value of $|\\vec{a} + \\vec{b}|^2 - |\\vec{a} - \\vec{b}|^2$ is equal to",
+      "options": ["$3$", "$4$", "$\\sqrt{5}$", "$\\sqrt{7}$", "$7$"],
+      "correct": 0
+    },
+    {
+      "id": 42,
+      "question": "Let $\\alpha , \\beta$ and $\\gamma$ be the angles made by a straight line with the x-axis, y-axis and z-axis respectively. If $\\cos \\alpha + \\cos \\beta + \\cos \\gamma = \\frac{5}{3}$, then the value of $\\cos \\alpha \\cos \\beta + \\cos \\beta \\cos \\gamma + \\cos \\gamma \\cos \\alpha$ is equal to",
+      "options": ["$\\frac{11}{3}$", "$\\frac{8}{9}$", "$\\frac{11}{9}$", "$\\frac{7}{3}$", "$\\frac{7}{9}$"],
+      "correct": 1
+    },
+    {
+      "id": 43,
+      "question": "A straight line passing through $(6,1,3)$ meets the line $\\frac{x-1}{2} = \\frac{y}{1} = \\frac{z-2}{3}$ at $Q$. If the lines are perpendicular to each other, then the coordinates of $Q$ are",
+      "options": ["$(2,1,3)$", "$(1,2,3)$", "$(3,1,5)$", "$(2,-1,3)$", "$(-1,2,3)$"],
+      "correct": 2
+    },
+    {
+      "id": 44,
+      "question": "The angle between the lines $\\frac{x-3}{1} = \\frac{y+1}{-1} = \\frac{z-2}{-1}$ and $\\frac{x+1}{2} = \\frac{y-2}{2} = \\frac{z+3}{-2}$ is",
+      "options": [
+        "$\\cos^{-1}\\left(\\frac{\\sqrt{2}}{6}\\right)$",
+        "$\\cos^{-1}\\left(\\frac{\\sqrt{6}}{6}\\right)$",
+        "$\\cos^{-1}\\left(\\frac{\\sqrt{2}}{2}\\right)$",
+        "$\\cos^{-1}\\left(\\frac{1}{3}\\right)$",
+        "$\\cos^{-1}\\left(\\frac{\\sqrt{2}}{3}\\right)$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 45,
+      "question": "A straight line passes through the points $(10,8,6)$ and $(13,9,4)$. A unit vector parallel to this line is",
+      "options": [
+        "$\\frac{1}{\\sqrt{17}}(3\\hat{i} + 2\\hat{j} + 2\\hat{k})$",
+        "$\\frac{1}{\\sqrt{6}}(\\hat{i} + \\hat{j} - 2\\hat{k})$",
+        "$\\frac{1}{\\sqrt{14}}(3\\hat{i} + \\hat{j} + 2\\hat{k})$",
+        "$\\frac{1}{\\sqrt{17}}(3\\hat{i} + \\hat{j} + 2\\hat{k})$",
+        "$\\frac{1}{\\sqrt{14}}(3\\hat{i} + \\hat{j} - 2\\hat{k})$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 46,
+      "question": "A box contains 4 red and 6 white marbles. Two successive draws of 3 balls are made without replacement. The probability that in the first draw, all the 3 balls are white and in the second draw, all the 3 balls are red, is",
+      "options": [
+        "$\\frac{2}{105}$",
+        "$\\frac{1}{70}$",
+        "$\\frac{4}{105}$",
+        "$\\frac{1}{105}$",
+        "$\\frac{1}{35}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 47,
+      "question": "Let $A$ and $B$ be two events. If $P(A \\mid B) = 0.4$, $P(A \\mid B') = 0.7$ and $P(B) = 0.7$, then $P(A) =$",
+      "options": ["$0.44$", "$0.54$", "$0.49$", "$0.5$", "$0.65$"],
+      "correct": 2
+    },
+    {
+      "id": 48,
+      "question": "The standard deviation of the numbers $-3, 0, 3, 8$ is",
+      "options": [
+        "$\\frac{\\sqrt{60}}{2}$",
+        "$\\frac{\\sqrt{62}}{2}$",
+        "$\\frac{\\sqrt{65}}{2}$",
+        "$\\frac{\\sqrt{66}}{2}$",
+        "$\\frac{\\sqrt{67}}{2}$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 49,
+      "question": "An unbiased die is tossed until 5 appears. If $X$ denotes the number of tosses required, then $\\frac{P(X = 2)}{P(X = 5)} =$",
+      "options": [
+        "$\\frac{25}{36}$",
+        "$\\frac{125}{216}$",
+        "$\\frac{216}{125}$",
+        "$\\frac{36}{25}$",
+        "$\\frac{216}{25}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 50,
+      "question": "$\\lim_{x \\to 0} \\frac{x^2}{\\sqrt{2} - \\sqrt{1 + \\cos x}}$ is equal to",
+      "options": [
+        "$4\\sqrt{2}$",
+        "$4$",
+        "$2\\sqrt{2}$",
+        "$\\sqrt{2}$",
+        "$0$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 51,
+      "question": "Let $f(x) = \\begin{cases} \\dfrac{\\tan ax + (\\beta + 1)\\tan x}{x}, & \\text{for } x \\ne 0 \\\\ 5, & \\text{for } x = 0 \\end{cases}$ be continuous at $x = 0$. Then the value of $\\alpha + \\beta$ is equal to",
+      "options": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 52,
+      "question": "The domain of the function $f(x) = \\sqrt{x - 3} + 4\\sqrt{5 - x}$ is",
+      "options": [
+        "$[1,2]$",
+        "$[2,4]$",
+        "$[3,5]$",
+        "$[3,20]$",
+        "$[12,20]$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 53,
+      "question": "If $f(x) = \\dfrac{3^x}{3^x + \\sqrt{3}}$, then $f(x) + f(1 - x)$ is equal to",
+      "options": [
+        "$\\sqrt{3}$",
+        "$\\dfrac{1}{\\sqrt{3}}$",
+        "$2\\sqrt{3}$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 54,
+      "question": "$\\lim_{x \\to 0} \\dfrac{\\sqrt{\\cos^2 x + 3} - \\sqrt{\\cos^2 x + \\sin x + 3}}{x} =$",
+      "options": [
+        "$\\dfrac{1}{4}$",
+        "$-\\dfrac{1}{4}$",
+        "$\\dfrac{1}{2}$",
+        "$-\\dfrac{1}{2}$",
+        "$-1$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 55,
+      "question": "If $f(x) = |x^2 + x - 6|$ is not differentiable at $x = a$ and $x = b$, then $a^2 + b^2 =$",
+      "options": [
+        "$11$",
+        "$14$",
+        "$12$",
+        "$13$",
+        "$16$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 56,
+      "question": "Let $f(x) = |\\sin 3x| - |\\cos 3x|$, where $\\dfrac{\\pi}{6} \\le x \\le \\dfrac{\\pi}{3}$. Then the value of $f'\\left(\\dfrac{\\pi}{4}\\right)$ is equal to",
+      "options": [
+        "$-3\\sqrt{2}$",
+        "$3\\sqrt{2}$",
+        "$-\\dfrac{3}{\\sqrt{2}}$",
+        "$\\dfrac{3}{\\sqrt{2}}$",
+        "$0$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 57,
+      "question": "Let $h(x) = f(\\sqrt{g(x)})$. If $f'(3) = 6$, $g'(3) = 3$ and $g(3) = 9$, then the value of $h'(3)$ is equal to",
+      "options": [
+        "$1$",
+        "$3$",
+        "$6$",
+        "$9$",
+        "$18$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 58,
+      "question": "Let $f(x) = (\\cos^2 x)(a + \\cos x)$. If $f'\\left(\\dfrac{\\pi}{3}\\right) = 0$ then the value of $a$ is equal to",
+      "options": [
+        "$\\dfrac{\\sqrt{3}}{2}$",
+        "$\\dfrac{3}{4}$",
+        "$-\\dfrac{3}{4}$",
+        "$-\\dfrac{3}{2}$",
+        "$-1$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 59,
+      "question": "If $y = \\tan^{-1}(x^2 - x)$, then $\\dfrac{dy}{dx} =$",
+      "options": [
+        "$\\dfrac{2x}{1 + (x^2 - x)^2}$",
+        "$\\dfrac{2x - 1}{1 + (x^2 - x)^2}$",
+        "$\\dfrac{2x - 1}{1 - (x^2 - x)^2}$",
+        "$\\dfrac{-2x + 1}{1 + (x^2 - x)^2}$",
+        "$(2x - 1)(1 + (x^2 - x)^2)$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 60,
+      "question": "The function $f(x) = x^2(x - 2)$ is strictly decreasing in",
+      "options": [
+        "$(1,2)$",
+        "$(-1,1)$",
+        "$\\left(\\dfrac{4}{3}, \\infty\\right)$",
+        "$(-1,0)$",
+        "$\\left(0, \\dfrac{4}{3}\\right)$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 61,
+      "question": "The surface area of a solid hemisphere is increasing at the rate of $8\\ cm^2/sec$ (retaining its shape). Then the rate of change of its volume (in $cm^3/sec$), when the radius is $5cm$, is",
+      "options": ["$\\frac{50}{3}$", "$\\frac{20}{3}$", "$\\frac{40}{3}$", "$\\frac{25}{3}$", "$\\frac{80}{3}$"],
+      "correct": 2
+    },
+    {
+      "id": 62,
+      "question": "The function $f(x) = 2x^3 - 3x^2 - 36x + 28$ is increasing in",
+      "options": ["$(-\\infty, -1] \\cup [3, \\infty)$", "$(-\\infty, -2] \\cup [3, \\infty)$", "$(-\\infty, -2] \\cup [5, \\infty)$", "$(-\\infty, -5] \\cup [3, \\infty)$", "$(-\\infty, -2] \\cup [8, \\infty)$"],
+      "correct": 1
+    },
+    {
+      "id": 63,
+      "question": "Let $f(x) = x^2 + \\alpha x + \\beta$. If $f$ has a local minimum at $(2, 6)$, then $f(0)$ is equal to",
+      "options": ["$10$", "$-6$", "$8$", "$-8$", "$6$"],
+      "correct": 0
+    },
+    {
+      "id": 64,
+      "question": "$\\int \\frac{2x^2 + 4x + 3}{x^2 + x + 1} \\, dx =$",
+      "options": ["$2\\log_e |x^2 + x + 1| + C$", "$2x\\log_e |x^2 + x + 1| + C$", "$\\frac{1}{2}\\log_e |x^2 + x + 1| + C$", "$2x + \\log_e |x^2 + x + 1| + C$", "$x + 2\\log_e |x^2 + x + 1| + C$"],
+      "correct": 3
+    },
+    {
+      "id": 65,
+      "question": "$\\int \\frac{\\sin^{-1} x}{\\sqrt{1 - x^2}} \\, dx =$",
+      "options": ["$\\frac{1}{2}(\\sin^{-1} x)^2 + C$", "$-(\\sin^{-1} x)\\sqrt{1 - x^2} + C$", "$(\\sin^{-1} x)\\sqrt{1 - x^2} + x + C$", "$(\\sin^{-1} x)\\sqrt{1 - x^2} - x + C$", "$(\\sin^{-1} x)^2 + C$"],
+      "correct": 0
+    },
+    {
+      "id": 66,
+      "question": "$\\int x^7 (x^8 + 1)^{-3/4} \\, dx =$",
+      "options": ["$\\frac{1}{2}\\left(1 + \\frac{1}{x^8}\\right)^{1/4} + C$", "$4\\left(1 + \\frac{1}{x^8}\\right)^{1/4} + C$", "$(x^8 + 1)^{1/4} + C$", "$4(x^8 + 1)^{1/4} + C$", "$\\frac{1}{2}(x^8 + 1)^{1/4} + C$"],
+      "correct": 4
+    },
+    {
+      "id": 67,
+      "question": "$\\int e^x \\sec x (1 + \\tan x) \\, dx =$",
+      "options": ["$e^x \\sec^2 x + C$", "$e^x \\tan x + C$", "$e^x \\sec x + C$", "$e^x \\tan^2 x + C$", "$e^x \\sec x \\tan x + C$"],
+      "correct": 2
+    },
+    {
+      "id": 68,
+      "question": "$\\int e^x (x^2 - 2) \\cos(e^x (x^2 - 2x)) \\, dx =$",
+      "options": ["$\\sin(e^x (x^2 - 2x)) + C$", "$\\sin(e^x (x^2 - 2)) + C$", "$x^2 e^x \\sin(e^x (x^2 - 2)) + C$", "$e^x \\sin(e^x (x^2 - 2)) + C$", "$e^x \\sin(x^2 e^x - 2x e^x) + C$"],
+      "correct": 0
+    },
+    {
+      "id": 69,
+      "question": "If $\\int_{-\\sqrt{3}}^{1} (-6x^2 + 18) dx = \\alpha + \\beta \\sqrt{3}$ then the value of $\\alpha + \\beta$ is equal to",
+      "options": ["$12$", "$18$", "$24$", "$28$", "$32$"],
+      "correct": 3
+    },
+    {
+      "id": 70,
+      "question": "The value of $\\int_{\\pi/10}^{2\\pi/5} \\frac{\\cot^3 x}{1 + \\cot^3 x} \\, dx$ is equal to",
+      "options": ["$\\frac{\\pi}{20}$", "$\\frac{\\pi}{10}$", "$\\frac{3\\pi}{20}$", "$\\frac{\\pi}{5}$", "$\\frac{\\pi}{4}$"],
+      "correct": 2
+    },
+    {
+      "id": 71,
+      "question": "The area of the region bounded by $y = x^{5/2}$ and $y = x$ (in square units) is",
+      "options": [
+        "$\\frac{3}{7}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{3}{14}$",
+        "$\\frac{5}{14}$",
+        "$\\frac{4}{7}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 72,
+      "question": "$\\int_{0}^{1} \\frac{3^{2x}}{3^{2x} + 1} \\, dx =$",
+      "options": [
+        "$\\frac{\\log_e 5}{2\\log_e 3}$",
+        "$\\frac{\\log_e 5}{9\\log_e 3}$",
+        "$\\frac{\\log_e 5}{3\\log_e 3}$",
+        "$\\frac{2\\log_e 5}{3\\log_e 3}$",
+        "$\\frac{2\\log_e 5}{9\\log_e 3}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 73,
+      "question": "If $y(x) = 2y'(x)$, $y(x) \\ge 0$ and $y(0) = e^2$ then $y(x) =$",
+      "options": [
+        "$e^{x/2} + 2$",
+        "$e^{2x}$",
+        "$e^{x/2}$",
+        "$e^2 e^{x/2}$",
+        "$e^{2x} + 2$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 74,
+      "question": "The integrating factor of the differential equation $\\sin x \\, dy = \\frac{1}{2}(\\sin 2x + 2y \\cos x)dx$ is",
+      "options": [
+        "$\\sec x$",
+        "$\\sin x$",
+        "$\\tan x$",
+        "$\\cos x$",
+        "$\\cosec x$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 75,
+      "question": "In the graphical method of a linear programming problem, the optimal solution lies",
+      "options": [
+        "at the centre of the feasible region",
+        "at a corner point of the feasible region",
+        "at a point on the x-axis",
+        "at the origin",
+        "at the point where the objective function is zero"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 76,
+      "question": "If $2.7 \\times 10^{-6}$ is added to $4.3 \\times 10^{-5}$, giving due regard to significant figures, the result will be",
+      "options": [
+        "$4.57 \\times 10^{-5}$",
+        "$4.6 \\times 10^{-5}$",
+        "$4.5 \\times 10^{-5}$",
+        "$7.0 \\times 10^{-5}$",
+        "$4.57 \\times 10^{-6}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 77,
+      "question": "If the power of a lens is $+4\\ \\mathrm{D}$, then the lens is a",
+      "options": [
+        "convex lens of focal length $25\\ \\mathrm{cm}$",
+        "concave lens of focal length $25\\ \\mathrm{cm}$",
+        "concave lens of focal length $40\\ \\mathrm{cm}$",
+        "convex lens of focal length $50\\ \\mathrm{cm}$",
+        "concave lens of focal length $20\\ \\mathrm{cm}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 78,
+      "question": "If the velocity (in $ms^{-1}$) of a particle at any instant $t$ is given by $2.0\\hat{i} + 3.0t\\hat{j}$ then the magnitude of its acceleration (in $ms^{-2}$) is",
+      "options": [
+        "$5$",
+        "$3$",
+        "$2$",
+        "$4$",
+        "$6$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 79,
+      "question": "Among the following pairs of vectors, if the resultant of two vectors can never have magnitude $4$ units, then the magnitudes of the vectors are",
+      "options": [
+        "2 units and 2 units",
+        "1 unit and 3 units",
+        "5 units and 1 unit",
+        "7 units and 2 units",
+        "5 units and 8 units"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 80,
+      "question": "The ratio of angular speeds of the minute hand and second hand of a watch is",
+      "options": [
+        "$1 : 12$",
+        "$1 : 6$",
+        "$1 : 60$",
+        "$12 : 1$",
+        "$60 : 1$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 81,
+      "question": "When a body is thrown vertically upwards, from the ground, the time of ascent is $t_1$ and the time of descent is $t_2$ in the absence of air resistance. Then $t_1$ is equal to",
+      "options": ["$2t_2$", "$0.5t_2$", "$0.25t_2$", "$t_2$", "$4t_2$"],
+      "correct": 3
+    },
+    {
+      "id": 82,
+      "question": "When a person of mass $m$ climbs up or down a rope with uniform speed $v$, the tension in the rope is $(g = acceleration due to gravity)$",
+      "options": ["$mg$", "$m(g + v)$", "$m(g - v)$", "$mgv$", "$m\\left(\\frac{g}{v}\\right)$"],
+      "correct": 0
+    },
+    {
+      "id": 83,
+      "question": "A body of mass $0.2\\ kg$ travels along a straight line path with velocity $v = (2x^2 + 2)\\ m\\ s^{-1}$. The net work done by the driving force during its displacement from $x = 0$ to $x = 2m$ is",
+      "options": ["$5.4\\ J$", "$4.8\\ J$", "$9.6\\ J$", "$10.8\\ J$", "$6.5\\ J$"],
+      "correct": 2
+    },
+    {
+      "id": 84,
+      "question": "Two colliding particles after collision move together. Then the collision is",
+      "options": ["partial elastic collision", "perfectly inelastic collision", "perfectly elastic collision", "partial inelastic collision", "collision without any transfer of energy"],
+      "correct": 1
+    },
+    {
+      "id": 85,
+      "question": "A solid cylinder, a solid sphere, a disc and a ring are released from the top of an inclined plane (frictionless) so that they slide down the plane without rolling. The maximum acceleration down the plane is",
+      "options": ["for the disc", "for the solid cylinder", "for the solid sphere", "for the ring", "the same for all"],
+      "correct": 4
+    },
+    {
+      "id": 86,
+      "question": "When a particle is rotating with constant angular momentum, then",
+      "options": ["torque acting on it is constant", "force acting on it is constant", "linear momentum is constant", "torque acting on it is zero", "linear velocity is constant"],
+      "correct": 3
+    },
+    {
+      "id": 87,
+      "question": "Two objects of masses $1\\ kg$ and $2\\ kg$ are moving towards each other with accelerations $2\\ ms^{-2}$ and $3\\ ms^{-2}$ respectively on a smooth horizontal surface. The acceleration of centre of mass of the system is",
+      "options": ["$\\left(\\frac{4}{3}\\right) ms^{-2}$ in in the direction of acceleration of $2\\ kg$ mass", "$\\left(\\frac{2}{3}\\right) ms^{-2}$ in in the direction of acceleration of $1\\ kg$ mass", "$\\left(\\frac{2}{3}\\right) ms^{-2}$ in in the direction of acceleration of $2\\ kg$ mass", "$\\left(\\frac{4}{3}\\right) ms^{-2}$ in in the direction of acceleration of $1\\ kg$ mass", "zero"],
+      "correct": 0
+    },
+    {
+      "id": 88,
+      "question": "There is a mine of depth about $3.0\\ km$. Conditions prevailing in this mine as compared to those at the surface of earth are",
+      "options": ["higher air pressure, lower acceleration due to gravity", "higher air pressure, higher acceleration due to gravity", "lower air pressure, higher acceleration due to gravity", "lower air pressure, lower acceleration due to gravity", "same air pressure and acceleration due to gravity"],
+      "correct": 0
+    },
+    {
+      "id": 89,
+      "question": "The period of revolution of the planet $A$ around the sun is $27$ times that of another planet $B$. If the distance of $A$ from the sun is $x$ times greater than that of $B$ from the sun, then the value of $x$ is",
+      "options": ["$8$", "$4$", "$9$", "$3$", "$12$"],
+      "correct": 2
+    },
+    {
+      "id": 90,
+      "question": "The work done in splitting a spherical liquid drop of radius ‘a’ into eight liquid droplets of the same size is (surface tension of the liquid = S)",
+      "options": ["$8\\pi Sa^2$", "$\\pi Sa^2$", "$2\\pi Sa^2$", "$4\\pi Sa^2$", "$16\\pi Sa^2$"],
+      "correct": 3
+    },
+    {
+      "id": 91,
+      "question": "A vessel containing a liquid of density $d$ moves down with an acceleration $a (a < g)$. The pressure due to the liquid at a depth of $h$ below the free surface of the liquid is",
+      "options": [
+        "$hgd$",
+        "$h(g-a)d$",
+        "$h(g+a)d$",
+        "$h\\left(\\frac{g}{a}\\right)d$",
+        "$h\\left(\\frac{a}{g}\\right)d$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 92,
+      "question": "An incompressible liquid flows through a horizontal pipe having cross-sectional areas $A$ at one end and $2A$ at the other end. If the pressure and velocity of the liquid at the lower cross- sectional end are $P$ and $v$, then those values at the other end are (density of the liquid $= \\rho$)",
+      "options": [
+        "$\\frac{v}{2},\\; P + \\frac{3}{8}\\rho v^2$",
+        "$v,\\; P + \\frac{1}{8}\\rho v^2$",
+        "$\\frac{v}{4},\\; P + \\frac{1}{4}\\rho v^2$",
+        "$v,\\; P + \\frac{1}{2}\\rho v^2$",
+        "$2P + \\rho v^2$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 93,
+      "question": "Efficiency of a Carnot engine",
+      "options": [
+        "depends on the nature of the working substance",
+        "does not depend on the nature of the working substance",
+        "depends only on the temperature of the source $T^1$",
+        "depends only on the temperature of the sink $T^2$",
+        "does not depend on both temperature of the source $T^1$ and temperature of the sink $T^2$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 94,
+      "question": "A cylindrical vessel contains $16\\ \\text{kg}$ of gas at a pressure of $1$ atmosphere. A certain amount of gas is taken out and the pressure of gas in the vessel becomes $0.75$ atmosphere. The amount of gas taken out is",
+      "options": [
+        "$2.5\\ \\text{kg}$",
+        "$4\\ \\text{kg}$",
+        "$7.5\\ \\text{kg}$",
+        "$8.25\\ \\text{kg}$",
+        "$10\\ \\text{kg}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 95,
+      "question": "The number of degrees of freedom for monoatomic gas molecule is",
+      "options": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$7$",
+        "$1$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 96,
+      "question": "Pick out the INCORRECT STATEMENT",
+      "options": [
+        "Internal energy of an ideal gas depends only on its temperature",
+        "Change in the internal energy in a cyclic process is not zero",
+        "Change in the internal energy of a gas depends only on its initial and final states",
+        "Internal energy depends upon state of matter",
+        "Change in the internal energy in a cyclic process is zero"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 97,
+      "question": "The distance travelled by a particle executing linear S.H.M. from its mean position in $2\\ \\text{s}$ is equal to $\\frac{1}{\\sqrt{2}}$ times its amplitude. Then its time period in seconds is",
+      "options": [
+        "$10$",
+        "$8$",
+        "$9$",
+        "$12$",
+        "$16$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 98,
+      "question": "Time periods of pendulums $A$ and $B$ are $T$ and $\\frac{5T}{2}$. If they start executing S.H.M. at the same time from the mean position, the phase difference between them after the bigger pendulum has completed one oscillation is",
+      "options": [
+        "$\\pi/4$",
+        "$\\pi/2$",
+        "$\\pi/8$",
+        "$\\pi/16$",
+        "$\\pi$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 99,
+      "question": "A string of length $l$ is divided into three segments of lengths $l_1, l_2$ and $l_3$ with the fundamental frequencies $n_1, n_2$ and $n_3$ respectively. The original fundamental frequency of the string $n$ is given by",
+      "options": [
+        "$n = n_1 + n_2 + n_3$",
+        "$\\frac{1}{n} = \\frac{1}{n_1} + \\frac{1}{n_2} + \\frac{1}{n_3}$",
+        "$\\sqrt{n} = \\sqrt{n_1} + \\sqrt{n_2} + \\sqrt{n_3}$",
+        "$\\frac{1}{\\sqrt{n}} = \\frac{1}{\\sqrt{n_1}} + \\frac{1}{\\sqrt{n_2}} + \\frac{1}{\\sqrt{n_3}}$",
+        "$n = n_1 n_2 n_3$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 100,
+      "question": "The inward and outward electric flux from a closed surface are $6 \\times 10^4\\ NM^2C^{-1}$ and $3 \\times 10^4\\ NM^2C^{-1}$. Then the net charge (in coulomb) inside the closed surface is",
+      "options": [
+        "$-6 \\times 10^4 \\epsilon_0$",
+        "$6 \\times 10^4 \\epsilon_0$",
+        "$3 \\times 10^4 \\epsilon_0$",
+        "$9 \\times 10^4 \\epsilon_0$",
+        "$-3 \\times 10^4 \\epsilon_0$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 101,
+      "question": "In a circuit, the capacitance $C$ is connected. The effective capacitance of the circuit can be reduced by",
+      "options": ["introducing a metal plate between the plates of the capacitor", "introducing a dielectric slab between the plates", "reducing the potential difference between the plates", "connecting another capacitor in series with it", "connecting another capacitor in parallel with it"],
+      "correct": 3
+    },
+    {
+      "id": 102,
+      "question": "A given charge $Q$ is divided into two parts which are then kept at a distance $d$ apart. The electrostatic force between them will be maximum if the two parts are",
+      "options": ["$\\frac{Q}{4}$ and $\\frac{3Q}{4}$", "$\\frac{7Q}{8}$ and $\\frac{Q}{8}$", "$\\frac{Q}{3}$ and $\\frac{2Q}{3}$", "$\\frac{5Q}{6}$ and $\\frac{Q}{6}$", "$\\frac{Q}{2}$ each"],
+      "correct": 4
+    },
+    {
+      "id": 103,
+      "question": "The dependence of drift velocity $v_d$ on the electric field $E$, for which Ohm’s law is obeyed is",
+      "options": ["$v_d \\propto E^2$", "$v_d \\propto E$", "$v_d \\propto \\sqrt{E}$", "$v_d \\propto \\frac{1}{E}$", "$v_d \\propto \\frac{1}{E^2}$"],
+      "correct": 1
+    },
+    {
+      "id": 104,
+      "question": "If an equilateral triangle is made of a uniform wire of resistance $R$, then the equivalent resistance between the ends of a side is",
+      "options": ["$\\frac{2R}{3}$", "$\\frac{R}{3}$", "$\\frac{R}{9}$", "$\\frac{2R}{9}$", "$\\frac{R}{6}$"],
+      "correct": 3
+    },
+    {
+      "id": 105,
+      "question": "When ‘n’ identical cells are connected in parallel,",
+      "options": ["net voltage increases", "net current increases", "net voltage decreases", "net current decreases", "total internal resistance increases"],
+      "correct": 1
+    },
+    {
+      "id": 106,
+      "question": "In a cyclotron, if the frequency of the accelerating field is doubled, then the radius of the charged particle moving in a circular path will be",
+      "options": ["doubled", "quadrupled", "the same", "halved", "reduced to one fourth of the original radius"],
+      "correct": 2
+    },
+    {
+      "id": 107,
+      "question": "A galvanometer of resistance $100\\Omega$ gives a full scale deflection for a current of $1mA$ through it. The resistance required to convert it into a voltmeter which can read upto $2\\ V$ is",
+      "options": ["$1175\\ \\Omega$", "$1200\\ \\Omega$", "$1525\\ \\Omega$", "$1900\\ \\Omega$", "$2025\\ \\Omega$"],
+      "correct": 3
+    },
+    {
+      "id": 108,
+      "question": "If a magnetic material has magnetic susceptibility $\\chi = -0.5$, then its relative magnetic permeability $\\mu_r$ and the type of material is",
+      "options": ["$0$, diamagnetic", "$2$, ferromagnetic", "$1$, paramagnetic", "$-1$, ferromagnetic", "$0.5$, diamagnetic"],
+      "correct": 4
+    },
+    {
+      "id": 109,
+      "question": "The self-inductance of an air core solenoid is $L$. If the number of turns in the solenoid is doubled, keeping all other factors constant, then its self-inductance will be",
+      "options": ["$L$", "$\\frac{L}{2}$", "$2L$", "$4L$", "$8L$"],
+      "correct": 3
+    },
+    {
+      "id": 110,
+      "question": "An alternating current having the peak value $10\\sqrt{2}A$ is used to heat a metal wire. To produce the same heating effect, the constant current required is",
+      "options": ["$10\\sqrt{2}A$", "$5A$", "$14A$", "$7A$", "$10A$"],
+      "correct": 4
+    },
+    {
+      "id": 111,
+      "question": "The energy required to excite the hydrogen atom from its first excited state to second excited state is",
+      "options": [
+        "$12.09\\ \\mathrm{eV}$",
+        "$1.89\\ \\mathrm{eV}$",
+        "$10.2\\ \\mathrm{eV}$",
+        "$3.40\\ \\mathrm{eV}$",
+        "$1.51\\ \\mathrm{eV}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 112,
+      "question": "When a ray of light moves from one medium to another medium,",
+      "options": [
+        "its frequency remains unchanged",
+        "its frequency alone changes",
+        "its wavelength remains unchanged",
+        "both its frequency and wavelength change",
+        "its velocity remains constant"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 113,
+      "question": "The Brewster’s angle $i_B$ for any interface should lie between",
+      "options": [
+        "$30^\\circ$ and $45^\\circ$",
+        "$45^\\circ$ and $90^\\circ$",
+        "$0^\\circ$ and $30^\\circ$",
+        "$0^\\circ$ and $90^\\circ$",
+        "$30^\\circ$ and $60^\\circ$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 114,
+      "question": "In an Young’s double slit experiment, the band width of the fringes observed is $\\beta$, when light of wave length $\\lambda$ is used. With same experimental set up, to double the band width of the fringes, the wave length of light required is",
+      "options": [
+        "$\\lambda$",
+        "$\\frac{\\lambda}{2}$",
+        "$2\\lambda$",
+        "$\\frac{\\lambda}{4}$",
+        "$\\frac{\\lambda}{8}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 115,
+      "question": "Pick out the INCORRECT statement from the following : In photoelectric phenomenon,",
+      "options": [
+        "the value of stopping potential is the same for radiations of all frequencies",
+        "the stopping potential is more negative for the incident radiation of higher frequency",
+        "the value of saturation current depends on the intensity of incident radiation",
+        "the value of saturation current is independent of frequency of incident radiation",
+        "the emission of electrons is instantaneous"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 116,
+      "question": "If $\\lambda$ be the wavelength of any electromagnetic radiation, the de-Broglie wavelength of its quantum (photon) is",
+      "options": [
+        "$\\frac{\\lambda}{4}$",
+        "$\\lambda$",
+        "$\\frac{\\lambda}{2}$",
+        "$2\\lambda$",
+        "$\\frac{3\\lambda}{4}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 117,
+      "question": "The half-life periods of two radioactive materials $A$ and $B$ are $1500$ years and $1200$ years respectively. If their mean life periods are $\\tau_A$ and $\\tau_B$ respectively, then the value of the ratio $\\frac{\\tau_A}{\\tau_B}$",
+      "options": [
+        "$\\frac{5}{4}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{2}{5}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 118,
+      "question": "The greatest wavelength of the radiation that will ionize unexcited hydrogen atom is",
+      "options": [
+        "$1820\\ \\text{\\AA}$",
+        "$450\\ \\text{\\AA}$",
+        "$910\\ \\text{\\AA}$",
+        "$700\\ \\text{\\AA}$",
+        "$1400\\ \\text{\\AA}$"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 119,
+      "question": "An alternating voltage of $250\\ \\text{V}, 50\\ \\text{Hz}$ is applied to a full wave rectifier. If the internal resistance of each diode is $10\\ \\Omega$ and the load resistance is $5k\\ \\Omega$, the peak value of output current is",
+      "options": [
+        "$0.05\\ \\text{A}$",
+        "$0.07\\ \\text{A}$",
+        "$0.02\\ \\text{A}$",
+        "$0.03\\ \\text{A}$",
+        "$0.04\\ \\text{A}$"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 120,
+      "question": "The reverse biasing in a junction diode,",
+      "options": [
+        "increases the number of majority charge carriers",
+        "increases the number of minority charge carriers",
+        "reduces the number of minority charge carriers",
+        "decreases the potential barrier",
+        "increases the potential barrier"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 121,
+      "question": "The density of 3 M aqueous solution of a solute ‘X’ is 1.86 g mL$^{-1}$. The molality of the solution is (Molar mass of solute ‘X’ is 120 g mol$^{-1}$)",
+      "options": ["3m", "4m", "2m", "5m", "1m"],
+      "correct": 2
+    },
+    {
+      "id": 122,
+      "question": "The Vividh Bharati station of All India Radio, Kozhikode, broadcasts on a frequency of 1500 kHz. What is the wavelength of the electromagnetic radiation emitted by transmitter? (c = $3 \\times 10^8$ ms$^{-1}$)",
+      "options": ["200 m", "300 m", "100 m", "250 m", "150 m"],
+      "correct": 0
+    },
+    {
+      "id": 123,
+      "question": "Which of the following experimental phenomenon is explained by the wave nature of electromagnetic radiation?",
+      "options": ["Black-body radiation", "Photoelectric effect", "Diffraction", "Variation of heat capacity of solids as a function of temperature", "Line spectra of atoms with reference to hydrogen"],
+      "correct": 2
+    },
+    {
+      "id": 124,
+      "question": "Which of the following pair of oxides is neutral?",
+      "options": ["$Al_2O_3$ and $Na_2O$", "$Al_2O_3$ and $As_2O_3$", "$Cl_2O_7$ and $Na_2O$", "$Cl_2O_7$ and $Al_2O_3$", "CO and $N_2O$"],
+      "correct": 4
+    },
+    {
+      "id": 125,
+      "question": "The correct increasing order of dipole moment of $NF_3$, $H_2S$, $CHCl_3$ and $NH_3$ molecules is",
+      "options": ["$NF_3 < H_2S < CHCl_3 < NH_3$", "$NH_3 < H_2S < CHCl_3 < NF_3$", "$NF_3 < CHCl_3 < H_2S < NH_3$", "$NH_3 < CHCl_3 < H_2S < NF_3$", "$CHCl_3 < H_2S < NF_3 < NH_3$"],
+      "correct": 0
+    },
+    {
+      "id": 126,
+      "question": "Choose the INCORRECT pair of MOLECULE and its SHAPE among the following:",
+      "options": ["$SF_4$  Seesaw", "$BrF_5$  Trigonal bipyramidal", "$NH_3$  Trigonal pyramidal", "$XeF_4$  Square planar", "$ClF_3$  T-shape"],
+      "correct": 1
+    },
+    {
+      "id": 127,
+      "question": "In the reaction $3/2\\ O_2(g) \\rightarrow O_3(g)$, the value of $\\Delta_r G^{\\Theta}$ at 298 K is approximately ($K_p = 10^{-30}$ and $2.303RT = 5.7\\ kJ\\ mol^{-1}$)",
+      "options": ["171 kJ mol$^{-1}$", "191 kJ mol$^{-1}$", "-171 kJ mol$^{-1}$", "-191 kJ mol$^{-1}$", "100 kJ mol$^{-1}$"],
+      "correct": 0
+    },
+    {
+      "id": 128,
+      "question": "Which of the following has least mean multiple bond enthalpy (in kJ mol$^{-1}$) at 298 K?",
+      "options": ["$N \\equiv N$", "$C \\equiv N$", "$C = C$", "$C \\equiv O$", "$C = N$"],
+      "correct": 2
+    },
+    {
+      "id": 129,
+      "question": "Which of the following can act as Lewis acid?",
+      "options": ["$H_2O$", "$HO^-$", "$F^-$", "$NH_3$", "$AlCl_3$"],
+      "correct": 4
+    },
+    {
+      "id": 130,
+      "question": "The concentration of hydrogen ions in a sample of soft drink is $2 \\times 10^{-4}\\ mol\\ lit^{-1}$. Its pH value is (log 2 = 0.3010)",
+      "options": ["4.369", "3.699", "2.369", "5.301", "3.301"],
+      "correct": 1
+    },
+    {
+      "id": 131,
+      "question": "Which of the following is the correct order of conductivity (in $S\\ m^{-1}$)?",
+      "options": [
+        "Fe < Na < Cu < Ag",
+        "Fe < Cu < Na < Ag",
+        "Ag < Na < Cu < Fe",
+        "Ag < Cu < Na < Fe",
+        "Na < Fe < Cu < Ag"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 132,
+      "question": "'Layer Test' is used to identify",
+      "options": [
+        "Bromide",
+        "Fluoride",
+        "Potassium",
+        "Water",
+        "Chloride"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 133,
+      "question": "Which of the following solvent has highest value of Molal elevation constant, $K_b$?",
+      "options": [
+        "Cyclohexane",
+        "Carbon disulphide",
+        "Carbon tetrachloride",
+        "Acetic acid",
+        "Chloroform"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 134,
+      "question": "The initial concentration of $N_2O_5$ in the first order reaction, $N_2O_5(g) \\rightarrow 2NO_2(g) + \\frac{1}{2}\\ O_2(g)$, was $1.68 \\times 10^{-2}\\ \\mathrm{mol\\ L^{-1}}$ at $310\\ \\mathrm{K}$. The concentration of $N_2O_5$ after $10$ minutes was $0.84 \\times 10^{-2}\\ \\mathrm{mol\\ L^{-1}}$. What is the rate constant of the reaction at $310\\ \\mathrm{K}$? $(\\log 2 = 0.3010)$",
+      "options": [
+        "$0.0693\\ \\mathrm{min^{-1}}$",
+        "$0.693\\ \\mathrm{min^{-1}}$",
+        "$6.93\\ \\mathrm{min^{-1}}$",
+        "$0.0639\\ \\mathrm{min^{-1}}$",
+        "$0.0963\\ \\mathrm{min^{-1}}$"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 135,
+      "question": "Which of the following statement is not true about a catalyst?",
+      "options": [
+        "It catalyses the spontaneous reactions",
+        "A small amount of the catalyst can catalyse the large amount of reactants.",
+        "It does not alter the Gibbs energy of a reaction.",
+        "It catalyses the non-spontaneous reactions.",
+        "It does not change the equilibrium constant of a reaction."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 136,
+      "question": "The most common oxidation states of chromium are",
+      "options": [
+        "+2,+7",
+        "+3,+6",
+        "+2,+4",
+        "+2,+5",
+        "+3,+5"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 137,
+      "question": "Which of the following statement is true about potassium permanganate?",
+      "options": [
+        "It is isostructural with $KClO_3$.",
+        "It is paramagnetic in nature.",
+        "It oxidizes oxalates to carbon monoxide.",
+        "The structure of permanganate ion is square planar.",
+        "It is prepared by fusion of $MnO_2$ with an alkali metal hydroxide and an oxidising agent."
+      ],
+      "correct": 4
+    },
+    {
+      "id": 138,
+      "question": "The type of sulphide formed by Lanthanoids is",
+      "options": [
+        "$LnS_3$",
+        "$LnS_2$",
+        "$LnS$",
+        "$Ln_2S_3$",
+        "$Ln_2S$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 139,
+      "question": "In which of the following compound, Mn has +7 oxidation state?",
+      "options": [
+        "$MnOF$",
+        "$MnO_2F$",
+        "$MnO_3F_2$",
+        "$MnOF_2$",
+        "$MnO_3F$"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 140,
+      "question": "Which of the following is a heteroleptic complex?",
+      "options": [
+        "$[Co(NH_3)_6]^{3+}$",
+        "$[Fe(CN)_6]^{4-}$",
+        "$[Co(SCN)_4]^{2-}$",
+        "$[Co(NH_3)_4Cl_2]^+$",
+        "$[Co(CN)_6]^{3-}$"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 141,
+      "question": "Which of the following technique is used to separate chloroform and aniline?",
+      "options": ["Fractional distillation", "Distillation under reduced pressure", "Steam distillation", "Continuous extraction", "Distillation"],
+      "correct": 4
+    },
+    {
+      "id": 142,
+      "question": "In Kolbe’s electrolytic method, when sodium acetate is electrolysed, the gases generated at anode are",
+      "options": ["ethane and $H_2$", "$H_2$ and $CO_2$", "methane and ethane", "ethane and $CO_2$", "methane and $H_2$"],
+      "correct": 3
+    },
+    {
+      "id": 143,
+      "question": "The number of sigma ($\\sigma$) and pi ($\\pi$) bonds present in 3-Methylbut-1-ene are respectively",
+      "options": ["1 and 14", "18 and 2", "16 and 2", "17 and 1", "14 and 1"],
+      "correct": 4
+    },
+    {
+      "id": 144,
+      "question": "The order of reactivity of the following compounds towards $S_N2$ displacement reaction is (i) 2-Bromo-2-methylbutane  (ii) 1-Bromopentane  (iii) 2-Bromopentane",
+      "options": ["(ii) > (i) > (iii)", "(iii) > (i) > (ii)", "(ii) > (iii)> (i)", "(i) > (ii) > (iii)", "(iii) > (ii) > (i)"],
+      "correct": 2
+    },
+    {
+      "id": 145,
+      "question": "The IUPAC name of phenyl isopentyl ether is",
+      "options": ["3-Methylbutoxybenzene", "2-Methylbutoxybenzene", "2-Methylphenoxybutane", "4-Methylbutoxybenzene", "1-Methylbutoxybenzene"],
+      "correct": 0
+    },
+    {
+      "id": 146,
+      "question": "Phenol on treatment with chloroform in the presence of NaOH, a -CHO group is introduced at ortho position of benzene ring. The reaction is known as",
+      "options": ["Kolbe’s reaction", "Reimer-Tiemann reaction", "Gattermann-Koch reaction", "Stephen reaction", "Sandmeyer reaction"],
+      "correct": 1
+    },
+    {
+      "id": 147,
+      "question": "Toluene on treatment with chromic oxide in presence of acetic anhydride at 273 - 283 K gives compound(X). Compound(X) on hydrolysis with aqueous acid gives compound(Y). The compounds (X) and (Y) are respectively",
+      "options": ["Benzylidene diacetate and phenol", "Benzylalcohol and benzene", "Benzylidene diacetate and benzaldehyde", "Benzene and phenol", "Benzaldehyde and phenol"],
+      "correct": 2
+    },
+    {
+      "id": 148,
+      "question": "Fehling’s reagent is a mixture of",
+      "options": ["aqueous $CuSO_4$ and ammoniacal $AgNO_3$ solution", "aqueous $CuSO_4$ and 2,4-DNP", "aqueous KOH and ammoniacal $AgNO_3$ solution", "aqueous $CuSO_4$ and alkaline sodium potassium tatarate", "aqueous KOH and alkaline sodium potassium tatarate"],
+      "correct": 3
+    },
+    {
+      "id": 149,
+      "question": "The order of basic strength of following amines is (i) $CH_3NH_2$  (ii) $(C_2H_5)_2NH$  (iii) $C_6H_5NH_2$  (iv) $C_6H_5NHCH_3$",
+      "options": ["(ii) < (i) < (iv) < (iii)", "(iii) < (iv) < (ii) < (i)", "(ii) < (iii) < (iv) < (i)", "(i) < (ii) < (iii) < (iv)", "(iii) < (iv) < (i) < (ii)"],
+      "correct": 4
+    },
+    {
+      "id": 150,
+      "question": "The disease caused by the deficiency of riboflavin is",
+      "options": ["Cheilosis", "Rickets", "Beri beri", "Scurvy", "Xerophthalmia"],
+      "correct": 0
+    }
+    
+  ]
+}

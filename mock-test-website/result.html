@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEAM MOCK TEST - Result</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="result-body">
+    <div class="result-container text-center">
+        <h1>Test Result</h1>
+
+        <div class="score-card">
+            <h2>Total Score</h2>
+            <div class="score" id="total-score">0 / 0</div>
+            <p id="attempt-info">Attempted: 0 | Correct: 0 | Wrong: 0</p>
+        </div>
+
+        <div class="subject-scores" id="subject-scores">
+            <!-- Subject breakdown injected here -->
+        </div>
+
+        <button class="btn primary mt-4" onclick="returnToHome()">Return to Home</button>
+    </div>
+
+    <!-- Custom Scripts -->
+    <script src="js/storage.js"></script>
+    <script src="js/evaluation.js"></script>
+    <script>
+        // Inline logic for result page initialization
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const testId = urlParams.get('test_id');
+            const testType = urlParams.get('type');
+
+            if (!testId) {
+                window.location.href = 'index.html';
+                return;
+            }
+
+            // Load data
+            fetch(`data/${testId}`)
+                .then(res => res.json())
+                .then(testData => {
+                    const answers = StorageUtil.getAnswers(testId);
+                    const evaluation = EvaluationUtil.evaluate(testData, answers, testType);
+
+                    document.getElementById('total-score').textContent = `${evaluation.totalScore} / ${evaluation.maxScore}`;
+                    document.getElementById('attempt-info').textContent = `Attempted: ${evaluation.attempted} | Correct: ${evaluation.correctCount} | Wrong: ${evaluation.wrongCount}`;
+
+                    const subjectsDiv = document.getElementById('subject-scores');
+                    for (const [subject, data] of Object.entries(evaluation.subjects)) {
+                        const subjCard = document.createElement('div');
+                        subjCard.className = 'subject-card';
+                        subjCard.innerHTML = `
+                            <h3>${subject}</h3>
+                            <p>Score: <strong>${data.score}</strong> / ${data.maxScore}</p>
+                            <p>Correct: ${data.correct} | Wrong: ${data.wrong} | Attempted: ${data.attempted}</p>
+                        `;
+                        subjectsDiv.appendChild(subjCard);
+                    }
+                });
+        });
+
+        function returnToHome() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const testId = urlParams.get('test_id');
+            if (testId) {
+                StorageUtil.clearTestSession(testId);
+            }
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+
+</html>
