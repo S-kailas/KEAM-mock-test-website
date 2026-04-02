@@ -38,13 +38,14 @@
             <div class="options-container" id="options-container"></div>
 
             <div class="action-buttons">
-                <button class="btn secondary" onclick="handleSaveAndPrevious()">Save & Previous</button>
-                <button class="btn warning" onclick="handleMarkForReview()">Mark for Review</button>
-                <button class="btn primary" onclick="handleSaveAndNext()">Save & Next</button>
+                <button type="button" class="btn secondary" onclick="handleSaveAndPrevious()">Save & Previous</button>
+                <button type="button" id="btn-mark-review" class="btn warning" onclick="handleMarkForReview()">Mark for
+                    Review</button>
+                <button type="button" class="btn primary" onclick="handleSaveAndNext()">Save & Next</button>
             </div>
 
             <div class="submit-container">
-                <button class="btn danger full-width" onclick="handleSubmit()">Submit Test</button>
+                <button type="button" class="btn danger full-width" onclick="handleSubmit()">Submit Test</button>
             </div>
         </main>
 
@@ -76,27 +77,23 @@
             <h2>Confirm Submission</h2>
             <p>Do you want to end the exam?</p>
             <div class="modal-actions">
-                <button class="btn danger" onclick="confirmSubmit()">Yes, Submit</button>
-                <button class="btn secondary" onclick="closeSubmitModal()">Cancel</button>
+                <button type="button" class="btn danger" onclick="confirmSubmit()">Yes, Submit</button>
+                <button type="button" class="btn secondary" onclick="closeSubmitModal()">Cancel</button>
             </div>
         </div>
     </div>
 
-    <!-- ✅ LOAD ORDER IS CRITICAL -->
-
-    <!-- 1. KaTeX Core -->
+    <!-- KaTeX -->
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-
-    <!-- 2. Auto-render Extension -->
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
 
-    <!-- 3. YOUR SCRIPTS (ALSO DEFERRED) -->
+    <!-- App Scripts -->
     <script defer src="js/storage.js"></script>
     <script defer src="js/evaluation.js"></script>
     <script defer src="js/timer.js"></script>
     <script defer src="js/navigation.js"></script>
     <script defer src="js/renderer.js"></script>
-
+    ```
 
 </body>
 
