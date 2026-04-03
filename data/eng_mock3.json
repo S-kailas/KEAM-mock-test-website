@@ -7,12 +7,12 @@
   "questions": [
     {
       "id": 1,
-      "question": "Let $A = \\{x : x$ is a positive multiple of $2$ less than $36\\}, B = \\{x : x$ is a positive multiple of $3$ greater than $16\\}, and $C = \\{x : x$ is a positive multiple of $4$ less than $42\\}$. Then $(A \\cap B) \\cap C =$",
+      "question": "1. Let $A = \\{ x : x \\text{ is a positive multiple of } 2 \\text{ less than } 36 \\}$, $B = \\{ x : x \\text{ is a positive multiple of } 3 \\text{ greater than } 16 \\}$, and $c = \\{ x : x \\text{ is a positive multiple of } 4 \\text{ less than } 42 \\}$. Then $(A \\cap B) \\cap C =$",
       "options": [
-        "$\\{12, 24, 36\\}$",
-        "$\\{12, 24\\}$",
+        "$\\{12,\\ 24,\\ 36\\}$",
+        "$\\{12,\\ 24\\}$",
         "$\\{24\\}$",
-        "$\\{24, 36\\}$",
+        "$\\{24,\\ 36\\}$",
         "$\\phi$"
       ],
       "correct": 2
