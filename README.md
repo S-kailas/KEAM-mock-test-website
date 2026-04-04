@@ -1,4 +1,1 @@
-This contains the Source Code for the UP-and-running website kmt.heyy-kailas.me
-
-Intrested how I extracted the questions?
-   more details on KMT-question-extraction repo
+Copyright (c) 2026 Kailas
