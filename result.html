@@ -8,15 +8,15 @@
     <title>KEAM MOCK TEST - Result</title>
     <link rel="stylesheet" href="css/styles.css">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3C96W6XWNJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3C96W6XWNJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-3C96W6XWNJ');
-</script>
+        gtag('config', 'G-3C96W6XWNJ');
+    </script>
 
 
 </head>
@@ -26,88 +26,99 @@
         <h1>Test Result</h1>
 
 
-    <div class="score-card">
-        <h2>Total Score</h2>
-        <div class="score" id="total-score">0 / 0</div>
-        <p id="attempt-info">Attempted: 0 | Correct: 0 | Wrong: 0</p>
+        <div class="score-card">
+            <h2>Total Score</h2>
+            <div class="score" id="total-score">0 / 0</div>
+            <p id="attempt-info">Attempted: 0 | Correct: 0 | Wrong: 0</p>
+        </div>
+
+        <div class="subject-scores" id="subject-scores">
+            <!-- Subject breakdown injected here -->
+        </div>
+
+        <div class="result-actions"
+            style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; align-items: center;">
+            <button class="btn secondary" onclick="goToAnalysis()">Result Analysis</button>
+            <button class="btn primary" onclick="returnToHome()">Return to Home</button>
+        </div>
+
+        <!-- Question Source -->
+        <p style="margin-top: 1.2rem; font-size: 0.9rem; color: var(--text-muted);">
+            Question source :
+            <a href="https://drive.google.com/drive/folders/1856ytsL04IWGB4zywHAXt7hn7GUZHYOM?usp=drive_link"
+                target="_blank" style="color: var(--primary); display: inline-flex; align-items: center; gap: 6px;">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M10 4l2 2h8a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2h6z" />
+                </svg>
+            </a>
+        </p>
+
+        <!-- Contact -->
+        <p style="margin-top: 0.8rem; font-size: 0.9rem; color: var(--text-muted);">
+            Faced any issues? Feel free to contact
+            <a href="mailto:heyy.kailas@gmail.com" style="color: var(--primary);">
+                heyy.kailas@gmail.com
+            </a>
+        </p>
     </div>
 
-    <div class="subject-scores" id="subject-scores">
-        <!-- Subject breakdown injected here -->
-    </div>
+    <!-- Custom Scripts -->
+    <script src="js/storage.js"></script>
+    <script src="js/evaluation.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const testId = urlParams.get('test_id');
+            const testType = urlParams.get('type');
 
-    <button class="btn primary mt-4" onclick="returnToHome()">Return to Home</button>
+            if (!testId) {
+                window.location.href = 'index.html';
+                return;
+            }
 
-    <!-- Question Source -->
-    <p style="margin-top: 1.2rem; font-size: 0.9rem; color: var(--text-muted);">
-        Question source :
-        <a href="https://drive.google.com/drive/folders/1856ytsL04IWGB4zywHAXt7hn7GUZHYOM?usp=drive_link"
-            target="_blank"
-            style="color: var(--primary); display: inline-flex; align-items: center; gap: 6px;">
+            fetch(`data/${testId}`)
+                .then(res => res.json())
+                .then(testData => {
+                    const answers = StorageUtil.getAnswers(testId);
+                    const evaluation = EvaluationUtil.evaluate(testData, answers, testType);
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
-                viewBox="0 0 24 24">
-                <path d="M10 4l2 2h8a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2h6z" />
-            </svg>
-        </a>
-    </p>
+                    document.getElementById('total-score').textContent = `${evaluation.totalScore} / ${evaluation.maxScore}`;
+                    document.getElementById('attempt-info').textContent =
+                        `Attempted: ${evaluation.attempted} | Correct: ${evaluation.correctCount} | Wrong: ${evaluation.wrongCount}`;
 
-    <!-- Contact -->
-    <p style="margin-top: 0.8rem; font-size: 0.9rem; color: var(--text-muted);">
-        Faced any issues? Feel free to contact
-        <a href="mailto:heyy.kailas@gmail.com" style="color: var(--primary);">
-            heyy.kailas@gmail.com
-        </a>
-    </p>
-</div>
-
-<!-- Custom Scripts -->
-<script src="js/storage.js"></script>
-<script src="js/evaluation.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const urlParams = new URLSearchParams(window.location.search);
-        const testId = urlParams.get('test_id');
-        const testType = urlParams.get('type');
-
-        if (!testId) {
-            window.location.href = 'index.html';
-            return;
-        }
-
-        fetch(`data/${testId}`)
-            .then(res => res.json())
-            .then(testData => {
-                const answers = StorageUtil.getAnswers(testId);
-                const evaluation = EvaluationUtil.evaluate(testData, answers, testType);
-
-                document.getElementById('total-score').textContent = `${evaluation.totalScore} / ${evaluation.maxScore}`;
-                document.getElementById('attempt-info').textContent =
-                    `Attempted: ${evaluation.attempted} | Correct: ${evaluation.correctCount} | Wrong: ${evaluation.wrongCount}`;
-
-                const subjectsDiv = document.getElementById('subject-scores');
-                for (const [subject, data] of Object.entries(evaluation.subjects)) {
-                    const subjCard = document.createElement('div');
-                    subjCard.className = 'subject-card';
-                    subjCard.innerHTML = `
+                    const subjectsDiv = document.getElementById('subject-scores');
+                    for (const [subject, data] of Object.entries(evaluation.subjects)) {
+                        const subjCard = document.createElement('div');
+                        subjCard.className = 'subject-card';
+                        subjCard.innerHTML = `
                     <h3>${subject}</h3>
                     <p>Score: <strong>${data.score}</strong> / ${data.maxScore}</p>
                     <p>Correct: ${data.correct} | Wrong: ${data.wrong} | Attempted: ${data.attempted}</p>
                 `;
-                    subjectsDiv.appendChild(subjCard);
-                }
-            });
-    });
+                        subjectsDiv.appendChild(subjCard);
+                    }
+                });
+        });
 
-    function returnToHome() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const testId = urlParams.get('test_id');
-        if (testId) {
-            StorageUtil.clearTestSession(testId);
+        function returnToHome() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const testId = urlParams.get('test_id');
+            if (testId) {
+                StorageUtil.clearTestSession(testId);
+            }
+            window.location.href = 'index.html';
         }
-        window.location.href = 'index.html';
-    }
-</script>
+
+        function goToAnalysis() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const testId = urlParams.get('test_id');
+            const testType = urlParams.get('type');
+            if (testId) {
+                window.location.href = `analysis.html?test_id=${testId}&type=${testType}`;
+            }
+        }
+    </script>
 
 
 </body>
