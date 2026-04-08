@@ -409,6 +409,18 @@ p {
   text-align: left;
 }
 
+/* Analysis Page Overrides for Desktop Scrolling */
+.analysis-page.test-body {
+  height: auto;
+  overflow: visible;
+}
+.analysis-page .test-container {
+  height: auto;
+}
+.analysis-page .question-main {
+  overflow-y: visible;
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
