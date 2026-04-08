@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEAM MOCK TEST - Result Analysis</title>
+
+    <!-- KaTeX CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="test-body analysis-page">
+
+    <div class="test-header">
+        <h1>Result Analysis</h1>
+        <div style="font-size: 0.9rem; color: var(--text-muted);">
+            Incorrect or unattempted questions
+        </div>
+    </div>
+
+    <div class="test-container" style="display: block; max-width: 800px; margin: 0 auto;">
+        <main class="question-main" style="width: 100%;">
+            <div id="analysis-container">
+                <!-- Analysis questions injected here -->
+            </div>
+
+            <div class="submit-container" style="margin-top: 2rem;">
+                <button type="button" class="btn primary full-width" onclick="returnToHome()">Return to Home</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- KaTeX -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
+    <!-- App Scripts -->
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/analysis.js"></script>
+
+</body>
+
+</html>
